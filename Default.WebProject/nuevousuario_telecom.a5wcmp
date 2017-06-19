@@ -1,0 +1,1423 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "builderType": "Dialog2",
+        "guid": "e57d04f5-8f58-4c5b-ae18-3d82c5b8f9dd",
+        "style_name": "GrGray",
+        "componentName": "nuevousuario_telecom",
+        "componentFilename": "C:\\Users\\Desarrollador\\Documents\\alpha TELECOM.WebProjects\\Default.WebProject\\nuevousuario_telecom.a5wcmp",
+        "page_fields": [
+            {
+                "controltype": "layout_directive_ContainerBegin",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cf488f01_c491_461b_9410_c0fcc9423950}{I:'$$format.border.style.dash'} [Container: CONTAINER_NOTES]",
+                "displayODFlat": "{Data=cf488f01_c491_461b_9410_c0fcc9423950}{I:'$$format.border.style.dash'} [Container: CONTAINER_2]",
+                "idInternal": "cf488f01_c491_461b_9410_c0fcc9423950",
+                "lastIndex": 5,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cf488f01_c491_461b_9410_c0fcc9423950}{I:'$$format.border.style.dash'} [Container: CONTAINER_2]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cf488f01_c491_461b_9410_c0fcc9423950}{I:'$$format.border.style.dash'} [Container: CONTAINER_NOTES]",
+                "crc": "4294924513",
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_NOTES\"   \n\t\t\tclass=\"A5container \"  style=\"display: none; \"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "indentTree": 0,
+                "v": {
+                    "container": {
+                        "ID": "CONTAINER_NOTES",
+                        "style": "display: none;",
+                        "contentAlignment": "Left",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "None",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_FrameBegin",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e443c742_320b_4f36_93e8_fe952f5952fa}{I:'$$control.group'} [Frame: <No Label> - FRAME_NOTES]",
+                "displayODFlat": "{Data=e443c742_320b_4f36_93e8_fe952f5952fa}{I:'$$control.group'} [Frame: Notes]",
+                "idInternal": "e443c742_320b_4f36_93e8_fe952f5952fa",
+                "lastIndex": 4,
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e443c742_320b_4f36_93e8_fe952f5952fa}{I:'$$control.group'} [Frame: Notes]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e443c742_320b_4f36_93e8_fe952f5952fa}{I:'$$control.group'} [Frame: <No Label> - FRAME_NOTES]",
+                "crc": "4294934896",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\"     ><!-- DIV Container for fieldset '{grid.componentname}.FRAME_NOTES'-->\n\t<div>\n\t<fieldset id=\"{dialog.componentName}.V.R{dialog.rowNumber}.FRAME_NOTES\" class=\"\" style=\"-moz-border-radius: 8px;display:inline; width: 6in;\" >",
+                    "DesignViewHTML": ""
+                },
+                "indentTree": 1,
+                "v": {
+                    "Frame": {
+                        "ID": "FRAME_NOTES",
+                        "Border": {
+                            "Style": "width: 6in;"
+                        },
+                        "type": "Simple",
+                        "initialState": "Shown"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_freeform",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=788df23f_5bb6_4ced_bf5d_ebdf573fc4f2}{I:'$$control.staticHTML'} [Free-form Container] �",
+                "displayODFlat": "{Data=788df23f_5bb6_4ced_bf5d_ebdf573fc4f2}{I:'$$control.staticHTML'} [Free-form Container]",
+                "idInternal": "788df23f_5bb6_4ced_bf5d_ebdf573fc4f2",
+                "parentContainer": 2,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=788df23f_5bb6_4ced_bf5d_ebdf573fc4f2}{I:'$$control.staticHTML'} [Free-form Container]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=788df23f_5bb6_4ced_bf5d_ebdf573fc4f2}{I:'$$control.staticHTML'} [Free-form Container] �",
+                "crc": "4294922707",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.FREEFORM_1\" class=\"\" style=\"\"   ><b>Notes for Dialog</b>\n<ul>\n\t<li>This Dialog allows you to create an account in the Security Framework\nfor a new user.</li>\n\t<li>The new user is placed in a security Group called 'New User'.</li>\n\n\t<li>When intially setting up the Security Framework for this project, you must have\ncreated a Group called 'New User'.</li>\n\t<li>If you want new user accounts to be assigned to a different Group, then edit the code in the \n'onDialogInitialize' event. (Click 'Server-side' in the 'Events' category).</li>\n\t<li>This dialog does not add information to any other tables when the new user account is created. If you want to add other \ninformation (such as user's name, address, phone, etc.) to a related table at the time the new account is created, please choose the appropriate template.</li>\n\n\t<li>For more information see <a target=\"_blank\" href=\"http://news.alphasoftware.com/v11preview/videos_v11.htm#DialogSecurityFramework\">video</a> number <b>D_SF_1</b>.</li>\n</ul</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "inPanelCard": false,
+                "indentTree": 2,
+                "v": {
+                    "FreeformHTML": "<b>Notes for Dialog</b>\n<ul>\n\t<li>This Dialog allows you to create an account in the Security Framework\nfor a new user.</li>\n\t<li>The new user is placed in a security Group called 'New User'.</li>\n\n\t<li>When intially setting up the Security Framework for this project, you must have\ncreated a Group called 'New User'.</li>\n\t<li>If you want new user accounts to be assigned to a different Group, then edit the code in the \n'onDialogInitialize' event. (Click 'Server-side' in the 'Events' category).</li>\n\t<li>This dialog does not add information to any other tables when the new user account is created. If you want to add other \ninformation (such as user's name, address, phone, etc.) to a related table at the time the new account is created, please choose the appropriate template.</li>\n\n\t<li>For more information see <a target=\"_blank\" href=\"http://news.alphasoftware.com/v11preview/videos_v11.htm#DialogSecurityFramework\">video</a> number <b>D_SF_1</b>.</li>\n</ul",
+                    "removeMissingPlaceholders": true,
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "FREEFORM_1",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_FrameEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=fe599801_6bc5_4b93_a5b9_257553dbb3a3}{I:'vertLineCap'} [Frame End - FRAME_NOTES] �",
+                "displayODFlat": "{Data=fe599801_6bc5_4b93_a5b9_257553dbb3a3}{I:'$$control.group'} [Frame End]",
+                "idInternal": "fe599801_6bc5_4b93_a5b9_257553dbb3a3",
+                "containerStartIndex": 2,
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=fe599801_6bc5_4b93_a5b9_257553dbb3a3}{I:'vertLineCap'} [Frame End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=fe599801_6bc5_4b93_a5b9_257553dbb3a3}{I:'vertLineCap'} [Frame End - FRAME_NOTES] �",
+                "precalc": {
+                    "ControlHTML": "</fieldset>\n</div><!--End DIV Container for fieldset -->\n</div>\n<!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294952733",
+                "indentTree": 1,
+                "v": {
+                    "Frame": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_ContainerEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=a603826c_2111_43eb_b975_a130de5a6e2b}{I:'vertLineCap'} [Container End: CONTAINER_NOTES] �",
+                "displayODFlat": "{Data=a603826c_2111_43eb_b975_a130de5a6e2b}{I:'$$format.border.style.dash'} [Container End]",
+                "idInternal": "a603826c_2111_43eb_b975_a130de5a6e2b",
+                "containerStartIndex": 1,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=a603826c_2111_43eb_b975_a130de5a6e2b}{I:'vertLineCap'} [Container End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=a603826c_2111_43eb_b975_a130de5a6e2b}{I:'vertLineCap'} [Container End: CONTAINER_NOTES] �",
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_NOTES.BREAK\"  style=\"clear:both; \" /><div  id=\"{dialog.componentname}.V.R1.CONTAINER_NOTES.BREAK\"  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294920703",
+                "indentTree": 0,
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_hyperlink",
+                "display": "{B=White,Light Blue}{Data=9d400164_6d6d_4be8_a4bc_ec401eb017e9}{I:'$$generic.link'} [Hyperlink: Show/hide notes for ] �",
+                "displayODFlat": "{Data=9d400164_6d6d_4be8_a4bc_ec401eb017e9}{I:'$$generic.link'} [Hyperlink]",
+                "idInternal": "9d400164_6d6d_4be8_a4bc_ec401eb017e9",
+                "parentContainer": -1,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{Data=9d400164_6d6d_4be8_a4bc_ec401eb017e9}{I:'$$generic.link'} [Hyperlink]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=9d400164_6d6d_4be8_a4bc_ec401eb017e9}{I:'$$generic.link'} [Hyperlink: Show/hide notes for ] �",
+                "crc": "4294938007",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<a id=\"{dialog.componentName}.V.R{dialog.rownumber}.HYPERLINK_1\" title=\"\" href=\"#\"  class=\"[class.gridHyperlinkButton]\" style=\"\"  onclick=\"var ele = $('{dialog.componentname}.V.R1.CONTAINER_NOTES'); A5.u.element.toggle(ele,{show: {type: 'slide',duration: 'slow'},hide: {type: 'slide',duration: 'slow'}} );;$e.stopEvent(event);\"  >Show/hide notes for this Component</a>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.3in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "inPanelCard": false,
+                "indentTree": 0,
+                "v": {
+                    "hyperlinkText": "Show/hide notes for this Component",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "hyperlinkTextClass": "<Default>",
+                    "id": "HYPERLINK_1",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "breakHeight": ".3in",
+                    "breakHorizontalSpace": ".1in",
+                    "javascript": {
+                        "onclick": "/* actionJavascript:0b354214-667b-4bde-8558-4413affb4a70 */\nvar ele = $('{dialog.componentname}.V.R1.CONTAINER_NOTES');\nA5.u.element.toggle(ele,{show: {type: 'slide',duration: 'slow'},hide: {type: 'slide',duration: 'slow'}} );"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_FrameBegin",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=4ab4ba35-8942-4314-b9ff-a096c7df216e}{I:'$$control.group'} [Frame: <&nbsp;Register&nbsp;> - FRAME_2]",
+                "displayODFlat": "{Data=4ab4ba35-8942-4314-b9ff-a096c7df216e}{I:'$$control.group'} [Frame:  Security ]",
+                "idInternal": "4ab4ba35-8942-4314-b9ff-a096c7df216e",
+                "lastIndex": 15,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=4ab4ba35-8942-4314-b9ff-a096c7df216e}{I:'$$control.group'} [Frame:  Security ]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=4ab4ba35-8942-4314-b9ff-a096c7df216e}{I:'$$control.group'} [Frame: <&nbsp;Register&nbsp;> - FRAME_2]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\"     ><!-- DIV Container for fieldset '{grid.componentname}.FRAME_2'-->\n\t<div>\n\t<fieldset id=\"{dialog.componentName}.V.R{dialog.rowNumber}.FRAME_2\" class=\"\" style=\"-moz-border-radius: 8px;display:inline; \" >\n\t<legend class=\"GrGrayHeading\" style=\"\"  >&nbsp;Register&nbsp;</legend>",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294904572",
+                "indentTree": 0,
+                "v": {
+                    "FrameTitle": "&nbsp;Register&nbsp;",
+                    "Frame": {
+                        "ID": "FRAME_2",
+                        "Legend": {
+                            "Class": "GrGrayHeading"
+                        },
+                        "type": "Simple",
+                        "initialState": "Shown"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=701914ab-315f-4fb3-98ce-7bfe44e80553}{I:'$$control.edit'} [UserName]",
+                "displayODFlat": "{Data=701914ab-315f-4fb3-98ce-7bfe44e80553}{I:'$$control.edit'} [UserName]",
+                "idInternal": "701914ab-315f-4fb3-98ce-7bfe44e80553",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=701914ab-315f-4fb3-98ce-7bfe44e80553}{I:'$$control.edit'} [UserName]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=701914ab-315f-4fb3-98ce-7bfe44e80553}{I:'$$control.edit'} [UserName]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.USERNAME\" for=\"{grid.componentname}.V.R{grid.rownumber}.USERNAME\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"width: __global.labelWidth__; display: inline-block;\">User Name</label>\n<!--LblE--><!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERNAME\" title=\"\"     class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERNAME\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:2px; font: 0pt;\">&nbsp;</div><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'USERNAME': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294933488",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "controlType": "Textbox",
+                    "variableName": "UserName",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "User Name",
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": "2px",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "userDefinedClientSideValidationJavascript": "if(data==''){\n\treturn 'User Name is Required';\n} else {\n\treturn false;\n};\n",
+                    "onChange_ValidationOption": "None",
+                    "dataBinding": {
+                        "tableAlias": "RegisteredUsers",
+                        "fieldName": "UserName",
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=adca70e4-37d8-4aa7-b76a-f4539868f355}{I:'$$format.text'} [Static Text: *] �",
+                "displayODFlat": "{Data=adca70e4-37d8-4aa7-b76a-f4539868f355}{I:'$$format.text'} [Static Text]",
+                "idInternal": "adca70e4-37d8-4aa7-b76a-f4539868f355",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=adca70e4-37d8-4aa7-b76a-f4539868f355}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=adca70e4-37d8-4aa7-b76a-f4539868f355}{I:'$$format.text'} [Static Text: *] �",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_3\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold; \"   >*</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294960253",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "StaticText": "*",
+                    "Class": "<Default>",
+                    "Style": "color: #ff0000; font-weight: bold;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_3",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=538c7ca5-6d29-4313-beb3-775f05e2c6d8}{I:'$$control.edit'} [UserPassword]",
+                "displayODFlat": "{Data=538c7ca5-6d29-4313-beb3-775f05e2c6d8}{I:'$$control.edit'} [UserPassword]",
+                "idInternal": "538c7ca5-6d29-4313-beb3-775f05e2c6d8",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=538c7ca5-6d29-4313-beb3-775f05e2c6d8}{I:'$$control.edit'} [UserPassword]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=538c7ca5-6d29-4313-beb3-775f05e2c6d8}{I:'$$control.edit'} [UserPassword]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.USERPASSWORD\" for=\"{grid.componentname}.V.R{grid.rownumber}.USERPASSWORD\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"width: __global.labelWidth__; display: inline-block;\">Password</label>\n<!--LblE--><!--FldS--><input\ttype=\"password\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERPASSWORD\" title=\"\"     class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERPASSWORD\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:2px; font: 0pt;\">&nbsp;</div><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'USERPASSWORD': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294911664",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "controlType": "Textbox",
+                    "variableName": "UserPassword",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Password",
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": "2px",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "password": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "userDefinedClientSideValidationJavascript": "if(data==''){\n\treturn 'Password is Required';\n} else {\n\treturn false;\n};\n",
+                    "onChange_ValidationOption": "None",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=b10ee8cd-148f-4646-8f57-2238309f1985}{I:'$$format.text'} [Static Text: *] �",
+                "displayODFlat": "{Data=b10ee8cd-148f-4646-8f57-2238309f1985}{I:'$$format.text'} [Static Text]",
+                "idInternal": "b10ee8cd-148f-4646-8f57-2238309f1985",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=b10ee8cd-148f-4646-8f57-2238309f1985}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=b10ee8cd-148f-4646-8f57-2238309f1985}{I:'$$format.text'} [Static Text: *] �",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_4\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold; \"   >*</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294943451",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "StaticText": "*",
+                    "Class": "<Default>",
+                    "Style": "color: #ff0000; font-weight: bold;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_4",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=309ed316-8fb1-42a0-b6fb-805f0b9546e9}{I:'$$control.edit'} [UserConfirmPassword]",
+                "displayODFlat": "{Data=309ed316-8fb1-42a0-b6fb-805f0b9546e9}{I:'$$control.edit'} [UserConfirmPassword]",
+                "idInternal": "309ed316-8fb1-42a0-b6fb-805f0b9546e9",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=309ed316-8fb1-42a0-b6fb-805f0b9546e9}{I:'$$control.edit'} [UserConfirmPassword]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=309ed316-8fb1-42a0-b6fb-805f0b9546e9}{I:'$$control.edit'} [UserConfirmPassword]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.USERCONFIRMPASSWORD\" for=\"{grid.componentname}.V.R{grid.rownumber}.USERCONFIRMPASSWORD\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"width: __global.labelWidth__; display: inline-block;\">Confirm Password</label>\n<!--LblE--><!--FldS--><input\ttype=\"password\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERCONFIRMPASSWORD\" title=\"\"     class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERCONFIRMPASSWORD\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:2px; font: 0pt;\">&nbsp;</div><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'USERCONFIRMPASSWORD': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294927290",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "controlType": "Textbox",
+                    "variableName": "UserConfirmPassword",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Confirm Password",
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": "2px",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "password": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "userDefinedClientSideValidationJavascript": "if(data==''){\n\treturn 'Please re-enter Password';\n} else {\n\treturn false;\n};\n",
+                    "onChange_ValidationOption": "None",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=770b449c-f6c7-4118-afa9-76e96ae86e38}{I:'$$format.text'} [Static Text: *] �",
+                "displayODFlat": "{Data=770b449c-f6c7-4118-afa9-76e96ae86e38}{I:'$$format.text'} [Static Text]",
+                "idInternal": "770b449c-f6c7-4118-afa9-76e96ae86e38",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=770b449c-f6c7-4118-afa9-76e96ae86e38}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=770b449c-f6c7-4118-afa9-76e96ae86e38}{I:'$$format.text'} [Static Text: *] �",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_5\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold; \"   >*</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294927752",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "StaticText": "*",
+                    "Class": "<Default>",
+                    "Style": "color: #ff0000; font-weight: bold;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_5",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=5e62e686-6858-4eeb-887c-146283087092}{I:'$$format.text'} [Static Text: * Required Fields] �",
+                "displayODFlat": "{Data=5e62e686-6858-4eeb-887c-146283087092}{I:'$$format.text'} [Static Text]",
+                "idInternal": "5e62e686-6858-4eeb-887c-146283087092",
+                "parentContainer": 7,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=5e62e686-6858-4eeb-887c-146283087092}{I:'$$format.text'} [Static Text]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=5e62e686-6858-4eeb-887c-146283087092}{I:'$$format.text'} [Static Text: * Required Fields] �",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_6\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold; \"   >* Required Fields</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294962232",
+                "inPanelCard": false,
+                "indentTree": 1,
+                "v": {
+                    "StaticText": "* Required Fields",
+                    "Class": "<Default>",
+                    "Style": "color: #ff0000; font-weight: bold;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_6",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_FrameEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=e5703a90-f286-4612-a2fa-e0108ad15fcb}{I:'vertLineCap'} [Frame End - FRAME_2] �",
+                "displayODFlat": "{Data=e5703a90-f286-4612-a2fa-e0108ad15fcb}{I:'$$control.group'} [Frame End]",
+                "idInternal": "e5703a90-f286-4612-a2fa-e0108ad15fcb",
+                "precalc": {
+                    "ControlHTML": "</fieldset>\n</div><!--End DIV Container for fieldset -->\n</div>\n<!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 7,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=e5703a90-f286-4612-a2fa-e0108ad15fcb}{I:'vertLineCap'} [Frame End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=e5703a90-f286-4612-a2fa-e0108ad15fcb}{I:'vertLineCap'} [Frame End - FRAME_2] �",
+                "crc": "4294954305",
+                "indentTree": 0,
+                "v": {
+                    "Frame": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{Data=430ca310-0ca7-437d-971f-6da0d830d51e}{I:'$$format.border.style.dot'} [UserRoles]",
+                "displayODFlat": "{Data=430ca310-0ca7-437d-971f-6da0d830d51e}{I:'$$format.border.style.dot'} [UserRoles]",
+                "idInternal": "430ca310-0ca7-437d-971f-6da0d830d51e",
+                "parentContainer": -1,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{Data=430ca310-0ca7-437d-971f-6da0d830d51e}{I:'$$format.border.style.dot'} [UserRoles]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=430ca310-0ca7-437d-971f-6da0d830d51e}{I:'$$format.border.style.dot'} [UserRoles]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<!--FldS--><input\ttype=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERROLES\" title=\"\"     class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERROLES\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:0px; font: 0pt;\">&nbsp;</div><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'USERROLES': {info: {controlType: 'Hidden'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294958768",
+                "inPanelCard": false,
+                "indentTree": 0,
+                "v": {
+                    "controlType": "Hidden",
+                    "variableName": "UserRoles",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": "0px",
+                    "labelClass": "<Default>",
+                    "labelStyle": "vertical-align: top;",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{Data=e1e03f4b-5700-4b77-99aa-7b865715d77b}{I:'$$format.border.style.dot'} [UserGuid]",
+                "displayODFlat": "{Data=e1e03f4b-5700-4b77-99aa-7b865715d77b}{I:'$$format.border.style.dot'} [UserGuid]",
+                "idInternal": "e1e03f4b-5700-4b77-99aa-7b865715d77b",
+                "parentContainer": -1,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{Data=e1e03f4b-5700-4b77-99aa-7b865715d77b}{I:'$$format.border.style.dot'} [UserGuid]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=e1e03f4b-5700-4b77-99aa-7b865715d77b}{I:'$$format.border.style.dot'} [UserGuid]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<!--FldS--><input\ttype=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERGUID\" title=\"\"     class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERGUID\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:0px; font: 0pt;\">&nbsp;</div><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'USERGUID': {info: {controlType: 'Hidden'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294918974",
+                "inPanelCard": false,
+                "indentTree": 0,
+                "v": {
+                    "controlType": "Hidden",
+                    "variableName": "UserGuid",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": "0px",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_spacer",
+                "display": "{B=White,Light Blue}{Data=0365d7c7-3acf-4cc2-b7aa-0a3b4e797cb4}{I:'$$format.border.style.dot'} [Spacer]",
+                "displayODFlat": "{Data=0365d7c7-3acf-4cc2-b7aa-0a3b4e797cb4}{I:'$$format.border.style.dot'} [Spacer]",
+                "idInternal": "0365d7c7-3acf-4cc2-b7aa-0a3b4e797cb4",
+                "parentContainer": -1,
+                "inTreeControl": false,
+                "displayOD": "{B=White,Light Blue}{Data=0365d7c7-3acf-4cc2-b7aa-0a3b4e797cb4}{I:'$$format.border.style.dot'} [Spacer]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{B=White,Light Blue}{Data=0365d7c7-3acf-4cc2-b7aa-0a3b4e797cb4}{I:'$$format.border.style.dot'} [Spacer]",
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<div id=\"SPACER_1\" style=\"height: 1px;width: 240px;; font: 0pt Arial;\">&nbsp;</div>\n</div>\n\t",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294934498",
+                "inPanelCard": false,
+                "indentTree": 0,
+                "v": {
+                    "spacer": {
+                        "height": "1px",
+                        "width": "240px"
+                    },
+                    "BreakType": "None",
+                    "id": "SPACER_1"
+                }
+            },
+            {
+                "controltype": "layout_directive_ContainerBegin",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=942e6726-980f-4cb1-ad94-a17c273879c1}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "displayODFlat": "{Data=942e6726-980f-4cb1-ad94-a17c273879c1}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "idInternal": "942e6726-980f-4cb1-ad94-a17c273879c1",
+                "lastIndex": 22,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=942e6726-980f-4cb1-ad94-a17c273879c1}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=942e6726-980f-4cb1-ad94-a17c273879c1}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"A5container \"  style=\"\"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294965639",
+                "indentTree": 0,
+                "v": {
+                    "container": {
+                        "ID": "CONTAINER_1",
+                        "contentAlignment": "Left",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "None",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=32e61f5f_6fd1_44b6_8bca_f261c67deea7}{I:'$$control.button'} [Button: Submit]",
+                "displayODFlat": "{Data=32e61f5f_6fd1_44b6_8bca_f261c67deea7}{I:'$$control.button'} [Button]",
+                "idInternal": "32e61f5f_6fd1_44b6_8bca_f261c67deea7",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=32e61f5f_6fd1_44b6_8bca_f261c67deea7}{I:'$$control.button'} [Button]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=32e61f5f_6fd1_44b6_8bca_f261c67deea7}{I:'$$control.button'} [Button: Submit]",
+                "crc": "4294961781",
+                "parentContainer": 19,
+                "repeatingSectionParentId": -1,
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_SUBMIT\"    ></button>\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:.1in; font: 0pt;\">&nbsp;</div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "buttonText": "Submit",
+                    "Class": "<Default>",
+                    "Style": "width: .75in;",
+                    "BreakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_SUBMIT",
+                    "bubbleHelp": "Submit the form.",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Image followed by text",
+                        "disabledImageName": "{images.GridRow.SaveRecord.disabled}",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "{images.GridRow.SaveRecord}",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "dialog.isDirty = true",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "{dialog.object}.submit();\n//To include current location in the submitted data, use this syntax:\n//{dialog.object}.submit('','',{getLocationData: true})"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "{dialog.object}.dialogWatches['ENABLE_BUTTON_SUBMIT'] = {\n\t\twatch: [],\n\t\tvariables: [],\n\t\tonChange: function(data) {\n\t\n\t\n\tvar dialog = {};\n\tvar summary = {};\n\t{dialog.object}._getDialogVariables(dialog,summary,data);\n\tvar enable = (dialog.isDirty == true);\n\tvar eles = $cetp($n('V.R' + data.rowNumber + '.BUTTON_SUBMIT'),$('{dialog.componentName}.R'+data.rowNumber));\n\tif(typeof eles.length == 'undefined' || eles.length == 0) eles = [$('{grid.componentname}.'+'V.R' + data.rowNumber + '.BUTTON_SUBMIT')];\n\tvar pObj = {dialog.object}.getControl('BUTTON_SUBMIT'); if(pObj) { if(typeof pObj.setDisabled != 'undefined') {  pObj.setDisabled(!enable,eles); return true;  } }\n\tif(typeof {dialog.object}._buttons['BUTTON_SUBMIT'] != 'undefined') {\n\t{dialog.object}._buttons['BUTTON_SUBMIT'].setDisabled(!enable,eles)\n\t} else {\n\tfor(var i=0; i<eles.length;i++) eles[i].disabled = !enable;\n\t}\n\t;}\n}\n\n",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_SUBMIT',A5.d.evnts.click,function(e) {\n{dialog.object}.submit();\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_SUBMIT');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_SUBMIT'] = new A5.Button({\n\tlayout: 'icon text',\n\ttip: 'Submit the form.',\n\thtml: 'Submit',\n\ticon: '{images.GridRow.SaveRecord}',\n\tdisabledIcon: '{images.GridRow.SaveRecord.disabled}',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_SUBMIT'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_SUBMIT');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{Data=74928927_6ba2_4d2b_a1ae_bc181d771e38}{I:'$$control.button'} [Button: Reset] �",
+                "displayODFlat": "{Data=74928927_6ba2_4d2b_a1ae_bc181d771e38}{I:'$$control.button'} [Button]",
+                "idInternal": "74928927_6ba2_4d2b_a1ae_bc181d771e38",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=74928927_6ba2_4d2b_a1ae_bc181d771e38}{I:'$$control.button'} [Button]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{Data=74928927_6ba2_4d2b_a1ae_bc181d771e38}{I:'$$control.button'} [Button: Reset] �",
+                "crc": "4294917051",
+                "parentContainer": 19,
+                "repeatingSectionParentId": -1,
+                "inPanelCard": false,
+                "inTreeControl": false,
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_RESET\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "buttonText": "Reset",
+                    "Class": "<Default>",
+                    "Style": "width: .75in;",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_RESET",
+                    "bubbleHelp": "Reset the value of all controls in the form.",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Image followed by text",
+                        "disabledImageName": "{images.GridRow.UndoChanges.Disabled}",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "{images.GridRow.UndoChanges}",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "dialog.isDirty = true",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "{dialog.object}.resetForm();"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "{dialog.object}.dialogWatches['ENABLE_BUTTON_RESET'] = {\n\t\twatch: [],\n\t\tvariables: [],\n\t\tonChange: function(data) {\n\t\n\t\n\tvar dialog = {};\n\tvar summary = {};\n\t{dialog.object}._getDialogVariables(dialog,summary,data);\n\tvar enable = (dialog.isDirty == true);\n\tvar eles = $cetp($n('V.R' + data.rowNumber + '.BUTTON_RESET'),$('{dialog.componentName}.R'+data.rowNumber));\n\tif(typeof eles.length == 'undefined' || eles.length == 0) eles = [$('{grid.componentname}.'+'V.R' + data.rowNumber + '.BUTTON_RESET')];\n\tvar pObj = {dialog.object}.getControl('BUTTON_RESET'); if(pObj) { if(typeof pObj.setDisabled != 'undefined') {  pObj.setDisabled(!enable,eles); return true;  } }\n\tif(typeof {dialog.object}._buttons['BUTTON_RESET'] != 'undefined') {\n\t{dialog.object}._buttons['BUTTON_RESET'].setDisabled(!enable,eles)\n\t} else {\n\tfor(var i=0; i<eles.length;i++) eles[i].disabled = !enable;\n\t}\n\t;}\n}\n\n",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_RESET',A5.d.evnts.click,function(e) {\n{dialog.object}.resetForm();\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_RESET');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_RESET'] = new A5.Button({\n\tlayout: 'icon text',\n\ttip: 'Reset the value of all controls in the form.',\n\thtml: 'Reset',\n\ticon: '{images.GridRow.UndoChanges}',\n\tdisabledIcon: '{images.GridRow.UndoChanges.Disabled}',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_RESET'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_RESET');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_ContainerEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=d5180f23-8867-4850-8755-b040b1d92176}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
+                "displayODFlat": "{Data=d5180f23-8867-4850-8755-b040b1d92176}{I:'$$format.border.style.dash'} [Container End]",
+                "idInternal": "d5180f23-8867-4850-8755-b040b1d92176",
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><div  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"height:.1in; font: 0pt;\"></div><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 19,
+                "parentContainer": -1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=d5180f23-8867-4850-8755-b040b1d92176}{I:'vertLineCap'} [Container End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=d5180f23-8867-4850-8755-b040b1d92176}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
+                "crc": "4294941079",
+                "indentTree": 0,
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                }
+            }
+        ],
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "FontSize": "Medium",
+        "LocalCss": "<style>\n\n\n\n</style>",
+        "A5ContainerClassPadding": "0px",
+        "globalSettings": {
+            "labelWidth": "105px"
+        },
+        "serverSideEvents": {
+            "onDialogInitialize": "function onDialogInitialize as v (e as p)\n\t\n'To edit this action, place insertion point anywhere in the command, then click the 'Action Scripting' button'.\n\n' ---- All new users are members of the \"New User\" group\n' ---- Get the group identifier (guid) for the \"New User\" group\n' ---- Assign the identifier to the hidden \"UserRoles\" control\n\ne.control.UserRoles = a5ws_get_guid_from_group(\"New User\")\t\n\t\n'Inside e:\n'e.tmpl = Component definition\n'e.rv = Request variables\n'session = Session variables\n'e.rtc = Runtime calculations - you can use this to store data to be passed to other server side events\n'e.arguments = SQL::Arguments object with values for each of the arguments defined in this component.  To read a value from arguments: e.arguments.find(\"argumentName\").data\n\n'You can set the initial value of any field by setting the property\n'e.control.<fieldname>\n'For example:\n'e.control.firstname = \"Fred\"\n'e.control.lastname = \"Jones\"\n\n'To set the value of a field in a repeating section, you must use \"_A5INSTANCE\" and the instance number as a suffix on the fieldname.\n'For example:\n'e.control.firstname_A5INSTANCE2 = \"Bob\"  'sets the value in the 2nd row of the repeating section.\n\n'To specify any javascript that you want to execute set the  e.javascript property. For example:\n'e.javascript = \"alert('hello');\"\n\n'You can set 'state' variables in this event. The value of any state variables will be available in all subsequent ajax callbacks.\n'To set a state variable:\n'e._set.myvar1 = \"value1\"\n'e._set.myvar2 = \"value2\"\n\n\nend function\n",
+            "dialogValidate": "function dialogValidate as p (e as p)\n'Data values that were submitted are in e.dataSubmitted (original values are in e.oldDataSubmitted)\n\n'--------------------Repeating Sections ----------------------------------------\n'If your dialog contains repeating sections, data in the repeating sections will be in an array.\n'For example, say that your dialog has a repeating section that includes a field called QTY:\n'e.dataSubmitted.qty[1] - contains data from first repeating section row\n'e.dataSubmitted.qty[2] - contains data from second repeating section row, etc\n'e.dataSubmitted.qty.size() - number of entries in the array.\n\n'In addition, the e object will contain information about the repeating sections\n'e.repeatingSectionNames - a comma delimited list of the name (container ID) or each repeating section\n'e.repeatingSectionInfo - a property array with one entry for each repeating section.\n'The e.repeatingSectionInfo[] array will have these properties for each entry:\n' - .activeRow - the row in the repeating section that had focus when the Dialog was submitted\n' - .deletedRows - a CRLF delimited list of rows that were deleted. e.g. 1 and 3\n' - .rowCount - a count of the number of non-deleted rows\n' - .totalRowCount - a count of all rows in the repeating section including rows that were deleted\n' - .fieldsInRepeating section - a CRLF delimited list of fields in the repeating section\n' - .dirtyRowsInSection - a CRLF delimited list of rows in the repeating section that were edited. (A row that was edited, then deleted will still appear in this list).\n' - .dirtyFieldsInSection - a CRLF delimited list of fields in the repeating section that were edited. for example: PARTNO_A5INSTANCE3 is the 'PARTNO' field in row 3.\n'-------------------------------------------------------------------------------------------\n\n'Your code here can change any of the submitted data before it is validated.\t\n\n\n'Also inside e:\n'e.tmpl = Component definition\n'e.rv = Request variables\n'session = Session variables\n'e.rtc = Runtime calculations - you can use this to store data to be passed to other server side events\n'e.arguments = SQL::Arguments object with values for each of the arguments defined in this component.  To read a value from arguments: e.arguments.find(\"argumentName\").data\n\n'This event can set the value of any of the control in the Browser after it executes.\n'For example:\n'e.control.firstname = \"Fred\"\n'e.control.lastname = \"Jones\"\n'Note: You can also use the 'e._set' syntax here:\n'e._set.firstname.value = \"Fred\"\n'e._set.firstname.style.color = \"red\"\n'e._set.firstname.style.fontSize = \"20\"\n\n'--------------Setting Properties of Fields in Repeating Sections -----------------------\n'If you set the property of a field in a repeating section without explicitly stating what\n'row in the repeating section you are addressing, the field in the row with focus is set.\n'For example, assume that the QTY field is in a repeating section:\n'e._set.qty.value = \"23\" - sets the value of the QTY field in the repeating section row that has focus\n'e._set.qty_A5INSTANCE3.value = \"23\" - sets the value of the QTY field in the 3rd repeating instance row\n\n'----------------------------------------------------------------------------------------\n\n\n'Your code must set these properties\ndialogValidate.hasError = .f.\ndialogValidate.errorText = \"\"\n\n'To edit this action, place insertion point anywhere in the command, then click the 'Action Scripting' button'.\nExecuteServerSideAction(\"Validate Web Security Values::ValidateSecurity\")\n\n\n'By setting the above properties, you cause a global error message to show on the Dialog. If you want \n'error messages to appear next to particular fields, you can set properties in this optional array. For example:\n'dim dialogValidate.fieldErrors[0] as p\n'dialogValidate.fieldErrors[].varname = \"FIRSTNAME\"\n'dialogValidate.fieldErrors[..].errorText = \"Error message for the FIRSTNAME field\"\n\n'dialogValidate.fieldErrors[].varname = \"QUANTITY:3\"\n'dialogValidate.fieldErrors[..].errorText = \"Error message for the QUANTITY field in the 3rd row of a Repeating Section\"\n\n'If you have set field level error using the dialogValidate.fieldErrors[] array, you might want to suppress the global error message from appearing.\n'To do this, set dialogValidate.errorText = \"No Message\"\n\n'Optional - Your code can set this property:\n'e.javascript - if you want to send some javascript back to the browser, set this property.\n\n\n'Example validation code:\n'(Notice that all data values in e.dataSubmitted and e.oldDataSubmitted are Character values. You must use convert_type() to convert it to the correct data type)\n'if e.dataSubmitted.lastname = \"Smith\" .and. convert_type(e.datasubmitted.accountType,\"N\") > 2 then \n'\tdialogValidate.hasError = .t.\n'\tdialogValidate.errorText = \"Invalid order\"\n'end if \n\n'Example for a field in a repeating section\n'dim i as n\n'dim count as n\n'count = e.dataSubmitted.qty.size()\n''Loop over each entry in the array of data that was submitted\n'for i = 1 to count \n'\tif convert_type(e.dataSubmitted.qty[i],\"N\") > 10 then \n'\t\tdialogValidate.hasError = .t.\n'\t\tdialogValidate.errorText = dialogValidate.errorText + \"Quantity in row \" + i + \"must be less than 10 <br>\" \n'\tend if \n'next i \n\n'You can set 'state' variables in this event. The value of any state variables will be available in all subsequent ajax callbacks.\n'To set a state variable:\n'e._set.myvar1 = \"value1\"\n'e._set.myvar2 = \"value2\"\n\n'To read the value of a 'state' variable that was previously set:\n'e._state.myvar1\n\n\nend function\n",
+            "afterDialogValidate": "function afterDialogValidate as v (e as p)\n\t\n\n'To edit this action, place insertion point anywhere in the command, then click the 'Action Scripting' button'.\nExecuteServerSideAction(\"Save Web Security Values::SaveSecurity\")\n\n\n\ndim e.javascript as c\nif rtc.flagWebSecurityhasGlobalError = .T. then\t\n\te.javascript = e.javascript + \"alert('\"+rtc.WebSecurityGlobalErrorText+\"');\"\nelse\n\t'no errors - new account was created\n\t\n\t'If this component is being run from the AppLauncher component, then after the user has added a new account\n\t'we want to hide this component and show the login screen. The following javascript will do this. \n\t'If this component is not being run from the AppLauncher, then the Javascript does nothing because the \n\t'MAINAPP_REGISTERNEWACCOUNT div will not exist.\n\t\n\tdim js_afterNewAccount as c \n\tjs_afterNewAccount = <<%txt%\n\t//get a pointer to the DIV where the Register New Account component is shown. If this div exists\n\tvar ele = $('MAINAPP_REGISTERNEWACCOUNT'); \n\tif(ele) {\n\t\tele.style.display = 'none';\n\t\tvar ele2 = $('MAINAPPSPLASH'); \n\t\tele2.style.display = '';\n\t}\n\t%txt%\n\t\n\te.javascript = e.javascript + \";\" + crlf() + js_afterNewAccount\n\t\n\t\nend if \t\n\n\n\t\n\t\n'e.dataSubmitted  - contains all values that were submitted by the Dialog\n'e.oldDataSubmitted - contains the original values in the controls\n\n'--------------------Repeating Sections ----------------------------------------\n'If your dialog contains repeating sections, data in the repeating sections will be in an array.\n'For example, say that your dialog has a repeating section that includes a field called QTY:\n'e.dataSubmitted.qty[1] - contains data from first repeating section row\n'e.dataSubmitted.qty[2] - contains data from second repeating section row, etc\n'e.dataSubmitted.favoriteColors[2][3] - contains data from the second row - 'favoriteColors' is a multi-select control - returns the 3rd choice the user made\n'e.dataSubmitted.qty.size() - number of entries in the array.\n\n'In addition, the e object will contain information about the repeating sections\n'e.repeatingSectionNames - a comma delimited list of the name (container ID) or each repeating section\n'e.repeatingSectionInfo - a property array with one entry for each repeating section.\n'The e.repeatingSectionInfo[] array will have these properties for each entry:\n' - .activeRow - the row in the repeating section that had focus when the Dialog was submitted\n' - .deletedRows - a CRLF delimited list of rows that were deleted. e.g. 1 and 3\n' - .rowCount - a count of the number of non-deleted rows\n' - .totalRowCount - a count of all rows in the repeating section including rows that were deleted\n' - .fieldsInRepeating section - a CRLF delimited list of fields in the repeating section\n' - .dirtyRowsInSection - a CRLF delimited list of rows in the repeating section that were edited. (A row that was edited, then deleted will still appear in this list).\n' - .dirtyFieldsInSection - a CRLF delimited list of fields in the repeating section that were edited. for example: PARTNO_A5INSTANCE3 is the 'PARTNO' field in row 3.\n\n'-------------------------------------------------------------------------------------------\n\n\n'Also inside e:\n'e.tmpl = Component definition\n'e.rv = Request variables\n'session = Session variables\n'e.rtc = Runtime calculations - you can use this to store data to be passed to other server side events\n'e.arguments = SQL::Arguments object with values for each of the arguments defined in this component.  To read a value from arguments: e.arguments.find(\"argumentName\").data\n\n\n'You can can set these properties:\n'e.url - if you want to redirect to another page, set this property\n'e.javascript - if you want to send some javascript back to the browser, set this property.\n\n'You can set 'state' variables in this event. The value of any state variables will be available in all subsequent ajax callbacks.\n'To set a state variable:\n'e._set.myvar1 = \"value1\"\n'e._set.myvar2 = \"value2\"\n\n'To read the value of a 'state' variable that was previously set:\n'e._state.myvar1\n\n\nend function\n",
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "clientSideEvents": {
+            "beforeUXSectionPrepare": "",
+            "afterUXSectionPrepare": "",
+            "beforeUXSectionDestroy": "",
+            "afterUXSectionDestroy": "",
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": ""
+        },
+        "edit": {
+            "field_error_style": {
+                "type": "Icon",
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": "",
+                "showWarning": true
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?",
+            "windowTitleDirection": "ltr"
+        },
+        "selected": "32e61f5f_6fd1_44b6_8bca_f261c67deea7\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 4,
+        "clientSideEventIndex": 1,
+        "lastControlSelected": "predefined_controls_Submit-Reset Buttons",
+        "toolBox_value": "",
+        "addinBuildNumber": "4889",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "precalc": {
+            "repeatingsectionInfoJs": "",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n\n}",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n\t<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_NOTES\"   \n\t\t\tclass=\"A5container \"  style=\"display: none; \"  ><!--DIV for Container control-->\n\n<div class=\"A5container\"     ><!-- DIV Container for fieldset '{grid.componentname}.FRAME_NOTES'-->\n\t<fieldset id=\"{dialog.componentName}.V.R{dialog.rowNumber}.FRAME_NOTES\" class=\"\" style=\"-moz-border-radius: 8px;display:inline; width: 6in;\" >\n<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.FREEFORM_1\" class=\"\" style=\"\"   ><b>Notes for Dialog</b>\n<ul>\n\t<li>This Dialog allows you to create an account in the Security Framework\nfor a new user.</li>\n\t<li>The new user is placed in a security Group called 'New User'.</li>\n\n\t<li>When intially setting up the Security Framework for this project, you must have\ncreated a Group called 'New User'.</li>\n\t<li>If you want new user accounts to be assigned to a different Group, then edit the code in the \n'onDialogInitialize' event. (Click 'Server-side' in the 'Events' category).</li>\n\t<li>This dialog does not add information to any other tables when the new user account is created. If you want to add other \ninformation (such as user's name, address, phone, etc.) to a related table at the time the new account is created, please choose the appropriate template.</li>\n\n\t<li>For more information see <a target=\"_blank\" href=\"http://news.alphasoftware.com/v11preview/videos_v11.htm#DialogSecurityFramework\">video</a> number <b>D_SF_1</b>.</li>\n</ul</div>\n</div>\n</fieldset>\n</div><!--End DIV Container for fieldset -->\n\n\t\t<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\n<div class=\"A5container\">\n\t<a id=\"{dialog.componentName}.V.R{dialog.rownumber}.HYPERLINK_1\" title=\"\" href=\"#\" class=\"[class.gridHyperlinkButton]\" style=\"\"  onclick=\"var ele = $('{dialog.componentname}.V.R1.CONTAINER_NOTES'); A5.u.element.toggle(ele,{show: {type: 'slide',duration: 'slow'},hide: {type: 'slide',duration: 'slow'}} );\"  >Show/hide notes for this Component</a>\n</div><!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.3in; font: 0pt;\"></div><!--breakend-->\n\t\n<div class=\"A5container\"     ><!-- DIV Container for fieldset '{grid.componentname}.FRAME_2'-->\n\t<fieldset id=\"{dialog.componentName}.V.R{dialog.rowNumber}.FRAME_2\" class=\"\" style=\"-moz-border-radius: 8px;display:inline; \" >\n\t<legend class=\"GrGrayHeading\" style=\"\"  >&nbsp;Register&nbsp;</legend>\n\n<div class=\"A5container\">\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.USERNAME\" for=\"{grid.componentname}.V.R{grid.rownumber}.USERNAME\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"width: __global.labelWidth__; display: inline-block;\">User Name</label>\n<!--LblE--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERNAME\" title=\"\"   class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERNAME\"    value=\"\"  />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:2px; font: 0pt;\">&nbsp;</div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_3\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold;\"   >*</div>\n</div><!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.USERPASSWORD\" for=\"{grid.componentname}.V.R{grid.rownumber}.USERPASSWORD\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"width: __global.labelWidth__; display: inline-block;\">Password</label>\n<!--LblE--><input\ttype=\"password\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERPASSWORD\" title=\"\"   class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERPASSWORD\"    value=\"\"  />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:2px; font: 0pt;\">&nbsp;</div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_4\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold;\"   >*</div>\n</div><!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.USERCONFIRMPASSWORD\" for=\"{grid.componentname}.V.R{grid.rownumber}.USERCONFIRMPASSWORD\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"width: __global.labelWidth__; display: inline-block;\">Confirm Password</label>\n<!--LblE--><input\ttype=\"password\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERCONFIRMPASSWORD\" title=\"\"   class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERCONFIRMPASSWORD\"    value=\"\"  />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:2px; font: 0pt;\">&nbsp;</div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_5\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold;\"   >*</div>\n</div><!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_6\" title=\"\"  class=\"\" style=\"color: #ff0000; font-weight: bold;\"   >* Required Fields</div>\n</div>\n</fieldset>\n</div><!--End DIV Container for fieldset -->\n<!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<!--FldS--><input\ttype=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERROLES\" title=\"\"   class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERROLES\"    value=\"\"  />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:0px; font: 0pt;\">&nbsp;</div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<!--FldS--><input\ttype=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.USERGUID\" title=\"\"   class=\"[class.dialogInput]\" style=\"\"    name=\"V.R{grid.rownumber}.USERGUID\"    value=\"\"  />\n<!--FldE-->\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:0px; font: 0pt;\">&nbsp;</div><!--breakend-->\n\t\n<div class=\"A5container\">\n\t<div id=\"SPACER_1\" style=\"height: 1px;width: 240px;; font: 0pt Arial;\">&nbsp;</div>\n</div>\n\t\n\t<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"A5container \"  style=\"\"  ><!--DIV for Container control-->\n\n\t<div class=\"A5container\">\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_SUBMIT\"    ></button>\n</div><!--breakbegin--><div class=\"A5container\" style=\"width:.1in; font: 0pt;\">&nbsp;</div><!--breakend-->\n\t\n\t<div class=\"A5container\">\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_RESET\"    ></button>\n</div>\n\t\t<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br style=\"clear:both; \" /><div style=\"height:.1in; font: 0pt;\"></div><!--breakend-->\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "controlJavascript": "",
+            "template_js": "",
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "panelDisplayNames": "",
+            "controlJavascriptRepeatingSections": "",
+            "sessionVarsInShowHideExpns": "",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false
+        },
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: 'e57d04f5-8f58-4c5b-ae18-3d82c5b8f9dd',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'icon', \n\t\tclassName: 'errorTip',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.DIALOG_PART.GLOBAL_ERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t}\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.USERNAME=\"\"\nvalue.USERPASSWORD=\"\"\nvalue.USERCONFIRMPASSWORD=\"\"\nvalue.USERROLES=\"\"\nvalue.USERGUID=\"\"",
+            "setValueProperties2": "value.USERNAME=\"\"\nvalue.USERPASSWORD=\"\"\nvalue.USERCONFIRMPASSWORD=\"\"\nvalue.USERROLES=\"\"\nvalue.USERGUID=\"\"",
+            "setValueUnformattedProperties": "value.USERNAME=convert_type(\"\",\"C\")\nvalue.USERPASSWORD=convert_type(\"\",\"C\")\nvalue.USERCONFIRMPASSWORD=convert_type(\"\",\"C\")\nvalue.USERROLES=convert_type(\"\",\"C\")\nvalue.USERGUID=convert_type(\"\",\"C\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "serverSideActionsArray": [
+            {
+                "name": "ValidateSecurity",
+                "xbasic": "dim rtc as p\ndim rtc.fieldMap as c ' security variable field map  - list of security values mapped to dialog variables\n\n'syntax for 'rtc.fieldMap' - Security field name = dialog variable name in square brackets.\nrtc.fieldMap = <<%text%\nuserid=[UserName]\npassword=[UserPassword]\nconfirm_password=[UserConfirmPassword]\ngroups=[UserRoles]\nguid=[UserGuid]\n%text%\n\ndim dialogValidate.hasError as l = default .F.\ndim dialogValidate.errorText as c\n\t\na5ws_ValidateUsersWithDialog(e, rtc)\n\ndim jsShowErrors as c\n\nif rtc.flagWebSecurityhasGlobalError = .T. then\n\tdialogValidate.hasError = .T. ' set .t. to show errors\n\tif rtc.flagWebSecurityhasFieldError = .F. ' error is not a field level validation error\n\t\tdialogValidate.errorText = rtc.WebSecurityGlobalErrorText\n\t\t'must set this flag to prevent the Dialog from clearing the error messages.\n\t\te.showGlobalError = .t.\n\t\tjsShowErrors = a5wsHelper_ShowGlobalErrorJS(e.tmpl,e.rtc,rtc.WebSecurityGlobalErrorText )\n\t\tdim e.javascript as c = default \"\"\n\t\te.javascript = \te.javascript + jsShowErrors\n\telse\n\t\t' must set values to show field level errors\n\t\tdialogValidate.errorText = \"No Message\" ' set as 'No Message' to hide global error message\n\t\tdim dialogValidate.fieldErrors[0] as p\n\t\tdialogValidate.fieldErrors.append_arrays(rtc.fieldErrors) 'field errors are returned as array\n\tend if \nend if \n'\tdim errorText as c \n'\terrorText = rtc.WebSecurityGlobalErrorText\n'\terrorText = stritran(errorText,crlf(),\"<br>\")\n'\tjsShowErrors = \";$svs('\"+e.tmpl.alias+\".GLOBALERRORS','\"+js_escape(errorText)+\"'); \" + crlf()+\\\n'\t\"$('\"+e.tmpl.alias+\".GLOBALERRORS').style.display = '';\"\n\nif rtc.WebSecurityUpdateJS <> \"\"\n\tdim e.javascript as c = default \"\"\n\te.javascript = \tremove_blank_lines(e.javascript + rtc.WebSecurityUpdateJS)\nend if \n",
+                "metadata": "<rtc<FindByField=\"User Name\">\n<FindByValue=\"e.rtc.UserName\">\n>\n<useridVariable=\"[UserName]\">\n<passwordVariable=\"[UserPassword]\">\n<confirm_passwordVariable=\"[UserConfirmPassword]\">\n<groupsVariable=\"[UserRoles]\">\n<rememberMeVariable=\"\">\n<RedirPageVariable=\"\">\n<emailVariable=\"\">\n<SecQuesVariable=\"\">\n<SecAnsVariable=\"\">\n<guidVariable=\"[UserGuid]\">\n<ulinkVariable=\"\">\n",
+                "builder": "ValidateSecurity"
+            },
+            {
+                "name": "SaveSecurity",
+                "xbasic": "dim rtc as p\ndim rtc.fieldMap as c ' security variable field map  - list of security values mapped to dialog variables\n\n'syntax for 'rtc.fieldMap' - Security field name = dialog variable name in square brackets.\nrtc.fieldMap = <<%text%\nuserid=[UserName]\npassword=[UserPassword]\nconfirm_password=[UserConfirmPassword]\ngroups=[UserRoles]\nguid=[UserGuid]\n%text%\n\ndim dialogValidate.hasError as l = default .F.\ndim dialogValidate.errorText as c\n\t\na5ws_SaveUsersWithDialog(e, rtc)\n\ndim jsShowErrors as c\n\nif rtc.flagWebSecurityhasGlobalError = .T. then\n\tdialogValidate.hasError = .T. ' set .t. to show errors\n\tif rtc.flagWebSecurityhasFieldError = .F. ' error is not a field level validation error\n\t\tdialogValidate.errorText = rtc.WebSecurityGlobalErrorText\n\t\t'must set this flag to prevent the Dialog from clearing the error messages.\n\t\te.showGlobalError = .t.\n\t\tjsShowErrors = a5wsHelper_ShowGlobalErrorJS(e.tmpl,e.rtc,rtc.WebSecurityGlobalErrorText )\n\t\tdim e.javascript as c = default \"\"\n\t\te.javascript = \te.javascript + jsShowErrors\n\telse\n\t\t' must set values to show field level errors\n\t\tdialogValidate.errorText = \"No Message\" ' set as 'No Message' to hide global error message\n\t\tdim dialogValidate.fieldErrors[0] as p\n\t\tdialogValidate.fieldErrors.append_arrays(rtc.fieldErrors) 'field errors are returned as array\n\tend if \nend if \n'\tdim errorText as c \n'\terrorText = rtc.WebSecurityGlobalErrorText\n'\terrorText = stritran(errorText,crlf(),\"<br>\")\n'\tjsShowErrors = \";$svs('\"+e.tmpl.alias+\".GLOBALERRORS','\"+js_escape(errorText)+\"'); \" + crlf()+\\\n'\t\"$('\"+e.tmpl.alias+\".GLOBALERRORS').style.display = '';\"\n\nif rtc.WebSecurityUpdateJS <> \"\"\n\tdim e.javascript as c = default \"\"\n\te.javascript = \tremove_blank_lines(e.javascript + rtc.WebSecurityUpdateJS)\nend if \n",
+                "metadata": "<rtc<FindByField=\"\">\n<FindByValue=\"\">\n>\n<useridVariable=\"[UserName]\">\n<passwordVariable=\"[UserPassword]\">\n<confirm_passwordVariable=\"[UserConfirmPassword]\">\n<groupsVariable=\"[UserRoles]\">\n<rememberMeVariable=\"\">\n<RedirPageVariable=\"\">\n<emailVariable=\"\">\n<SecQuesVariable=\"\">\n<SecAnsVariable=\"\">\n<guidVariable=\"[UserGuid]\">\n<ulinkVariable=\"\">\n",
+                "builder": "SaveSecurity"
+            },
+            {
+                "name": "SaveSecurity",
+                "xbasic": "dim rtc as p\ndim rtc.fieldMap as c ' security variable field map  - list of security values mapped to dialog variables\n\n'syntax for 'rtc.fieldMap' - Security field name = dialog variable name in square brackets.\nrtc.fieldMap = <<%text%\nuserid=[UserName]\npassword=[UserPassword]\nconfirm_password=[UserConfirmPassword]\ngroups=[UserRoles]\nguid=[UserGuid]\n%text%\n\ndim dialogValidate.hasError as l = default .F.\ndim dialogValidate.errorText as c\n\t\na5ws_SaveUsersWithDialog(e, rtc)\n\ndim jsShowErrors as c\n\nif rtc.flagWebSecurityhasGlobalError = .T. then\n\tdialogValidate.hasError = .T. ' set .t. to show errors\n\tif rtc.flagWebSecurityhasFieldError = .F. ' error is not a field level validation error\n\t\tdialogValidate.errorText = rtc.WebSecurityGlobalErrorText\n\t\t'must set this flag to prevent the Dialog from clearing the error messages.\n\t\te.showGlobalError = .t.\n\t\tjsShowErrors = a5wsHelper_ShowGlobalErrorJS(e.tmpl,e.rtc,rtc.WebSecurityGlobalErrorText )\n\t\tdim e.javascript as c = default \"\"\n\t\te.javascript = \te.javascript + jsShowErrors\n\telse\n\t\t' must set values to show field level errors\n\t\tdialogValidate.errorText = \"No Message\" ' set as 'No Message' to hide global error message\n\t\tdim dialogValidate.fieldErrors[0] as p\n\t\tdialogValidate.fieldErrors.append_arrays(rtc.fieldErrors) 'field errors are returned as array\n\tend if \nend if \n'\tdim errorText as c \n'\terrorText = rtc.WebSecurityGlobalErrorText\n'\terrorText = stritran(errorText,crlf(),\"<br>\")\n'\tjsShowErrors = \";$svs('\"+e.tmpl.alias+\".GLOBALERRORS','\"+js_escape(errorText)+\"'); \" + crlf()+\\\n'\t\"$('\"+e.tmpl.alias+\".GLOBALERRORS').style.display = '';\"\n\nif rtc.WebSecurityUpdateJS <> \"\"\n\tdim e.javascript as c = default \"\"\n\te.javascript = \tremove_blank_lines(e.javascript + rtc.WebSecurityUpdateJS)\nend if \n",
+                "metadata": "<rtc<FindByField=\"\">\n<FindByValue=\"\">\n>\n<useridVariable=\"[UserName]\">\n<passwordVariable=\"[UserPassword]\">\n<confirm_passwordVariable=\"[UserConfirmPassword]\">\n<groupsVariable=\"[UserRoles]\">\n<rememberMeVariable=\"\">\n<RedirPageVariable=\"\">\n<emailVariable=\"\">\n<SecQuesVariable=\"\">\n<SecAnsVariable=\"\">\n<guidVariable=\"[UserGuid]\">\n<ulinkVariable=\"\">\n",
+                "builder": "SaveSecurity"
+            }
+        ],
+        "embeddedMode": false,
+        "localPreviewFlag": false,
+        "__allowCascadingRecalc": true,
+        "Livepreview_permissions": "",
+        "a_actionJavascript": [
+            {
+                "actionGuid": "0b354214-667b-4bde-8558-4413affb4a70",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$web.download'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Toggle visiblility of a container or DIV with animation{T=4}{I:'a5_vertical_line'}\">\n<action=\"Toggle visiblility of a container or DIV with animation\">\n<icon=\"$$web.download\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_ToggleVisibility(v,wf,pv,dlg_mode)\">\n<metaData=<<%str%\n<objectType=\"Container\">\n<objectID=\"\">\n<containerID=\"CONTAINER_NOTES\">\n<specialMode=\"\">\n<lock<option=\"Lock\">\n<class=\"<Default>\">\n<lockType=\"Element\">\n<unlockAfterMilliseconds=0>\n>\n<window<animation<show<method=\"Slide\">\n<speed=\"Slow\">\n>\n<hide<method=\"Slide\">\n<speed=\"Slow\">\n>\n>\n>\n%str%>\n<javascriptAttribute=<<%str%\nvar ele = $('{dialog.componentname}.V.R1.CONTAINER_NOTES');\nA5.u.element.toggle(ele,{show: {type: 'slide',duration: 'slow'},hide: {type: 'slide',duration: 'slow'}} );%str%>\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=\"\">\n<xbasicFunctions=\"\">\n>\n>\n"
+            }
+        ],
+        "versionNumber": 1,
+        "info": {
+            "createdBy": "Desarrollador",
+            "dateCreated": "2017-6-16",
+            "dateLastEdited": "2017-6-16"
+        },
+        "showAdvancedButtonFlag": true,
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "layoutType": "ControlWidth",
+        "previewMode": "Default",
+        "useDragScrolling": "Auto",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "onTimerEventInterval": 60,
+        "onlyValidateChangedFields": true,
+        "dataBinding": {
+            "autoRefreshSchemaOnLoad": true,
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "autoRefreshPromptFirst": "Prompt"
+        },
+        "clientSideEventIndexC": "1",
+        "repeatingSectionsAreDirty": true,
+        "pageTitle": "UX",
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true
+        },
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser",
+            "variablesToNotPersist": ""
+        },
+        "__WPhostName": "Chrome",
+        "securityVars": {
+            "useridVariable": "[UserName]",
+            "passwordVariable": "[UserPassword]",
+            "confirm_passwordVariable": "[UserConfirmPassword]",
+            "groupsVariable": "[UserRoles]",
+            "rememberMeVariable": "",
+            "RedirPageVariable": "",
+            "emailVariable": "",
+            "SecQuesVariable": "",
+            "SecAnsVariable": "",
+            "guidVariable": "[UserGuid]",
+            "ulinkVariable": ""
+        },
+        "_style_versionNumber": 2,
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "securityDeniedAction": "Redirect to login page",
+        "showLineNumbersInControlsList": false,
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "securityAppliedClientSide": true,
+        "preRenderUXatDesignTime": true,
+        "preRenderComputeWhen": "Every time component is saved",
+        "addinBuildNumberHighestUsed": "4889",
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "useCompactTheme": false,
+        "autoSetPreRenderOnForAllUX": true,
+        "styleTweaksCSS": "",
+        "styleTweaksSubthemes": "",
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "dataSeriesPublishToClientSide": false,
+        "preRenderWarningMessageShow": true,
+        "_style_hassubthemeTweaks": false,
+        "A5SaveTimeStamp": "20170616165138939"
+    }
+}
