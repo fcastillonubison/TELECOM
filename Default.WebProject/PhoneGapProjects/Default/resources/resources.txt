@@ -1,0 +1,35 @@
+{
+	"_id": "2684016",
+	"_icon": "",
+	"_ssL": "",
+	"_ssP": "",
+	"_ssA9": "",
+	"_initialUxComponent": "login_telecom",
+	"_componentLastUpdated": "27/06/2017 12:55:07 20 pm",
+	"_ajaxUrl": "",
+	"_additionalFiles": "",
+	"_userName": "wtwx6irfQI388l610MfHcA3dx88wwCfU",
+	"_pw": "nEUmwR92tRwv6SDFKfexhg==",
+	"_token": "",
+	"timeout": {
+		"phoneGapBuild": "<default>",
+		"phoneGapBuildLogin": "<default>",
+		"getAppIcon": "<default>"
+	},
+	"apperian": {
+		"enableOptions": false,
+		"loginName": "osLnGM4pUcQ=",
+		"password": "c5JMXi9Y+Ko=",
+		"serverURL": ""
+	},
+	"backupConfigFile": true,
+	"useImageMagick": true,
+	"indexHTMLMetaTags": "",
+	"genAppZipFile": false,
+	"zipFileLocation": "",
+	"buildTarget": "Phonegap Build",
+	"_androidBuildFlag": true,
+	"_iOSBuildFlag": true,
+	"_windowsBuildFlag": false,
+	"launchAppManager": true
+}
