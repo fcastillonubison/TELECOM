@@ -5,7 +5,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
 
 
 <style type="text/css">
@@ -77,6 +78,8 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
 
 <link rel="stylesheet" type="text/css" href="css/iOS/style.css">
 
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.eot">
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.svg">
@@ -121,7 +124,7 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -m
   background-color: #ef5321 !important; }
 .progress .indeterminate {
   background-color: #0154a0 !important; }
-input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+.colorinput input:not([type]):focus:not([readonly]), .colorinput input[type=text]:focus:not([readonly]), .colorinput input[type=password]:focus:not([readonly]), .colorinput input[type=email]:focus:not([readonly]), .colorinput input[type=url]:focus:not([readonly]), .colorinput input[type=time]:focus:not([readonly]), .colorinput input[type=date]:focus:not([readonly]), .colorinput input[type=datetime]:focus:not([readonly]), .colorinput input[type=datetime-local]:focus:not([readonly]), .colorinput input[type=tel]:focus:not([readonly]), .colorinput input[type=number]:focus:not([readonly]), .colorinput input[type=search]:focus:not([readonly]), .colorinput textarea.materialize-textarea:focus:not([readonly]) {
   border-bottom: 1px solid #ef5321;
   box-shadow: 0 1px 0 0 #ef5321; }
 </style>
@@ -137,6 +140,8 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 <script>
 	if(typeof jQuery != 'undefined') jQuery.noConflict();
 </script>
+<script type="text/javascript" src="__precomputedUXComponents.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript" src="_phoneGapSettings.js"></script>
 
 <title></title>
@@ -278,7 +283,7 @@ if(typeof DLG1_DlgObj == 'object') {
 	body: {
 		content: {
 			type: 'html',
-			src: '<div \tid="DLG1.V.R1.CONTAINER_1"   \n\t\t\tclass="container"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_2"   \n\t\t\tclass="card white z-depth-2 hoverable"  style=""  >\n<div class="A5CWLayout" style="width: 100%" >\n\t<input\ttype="text" id="DLG1.V.R1.USERNAME" title=""  autocapitalize="off"  autocorrect="off"     class="iOSEdit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.USERNAME"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<input\ttype="password" id="DLG1.V.R1.PASSWORD" title=""  autocapitalize="off"  autocorrect="off"     class="iOSEdit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.PASSWORD"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.LOGIN_BUTTON"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.LOGOUT_BUTTON"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%"  id="DLG1.V.R1.LOGIN_ERRORS" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;">\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
+			src: '<div \tid="DLG1.V.R1.CONTAINER_1"   \n\t\t\tclass="container"  style=""  >\n<div \tid="DLG1.V.R1.CONTAINER_2"   \n\t\t\tclass="card white z-depth-2 hoverable"  style=""  >\n<div class="A5CWLayout colorinput" style="width: 100%" >\n\t<input\ttype="text" id="DLG1.V.R1.USERNAME" title=""  autocapitalize="off"  autocorrect="off"     class="iOSEdit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.USERNAME"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout colorinput" style="width: 100%" >\n\t<input\ttype="password" id="DLG1.V.R1.PASSWORD" title=""  autocapitalize="off"  autocorrect="off"     class="iOSEdit" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"    name="V.R1.PASSWORD"    value=""    />\n\n</div><br  style="clear:both; " />\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.LOGIN_BUTTON"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%" >\n\t<button type="button" id="DLG1.V.R1.LOGOUT_BUTTON"    ></button>\n</div>\n<div class="A5CWLayout" style="width: 100%"  id="DLG1.V.R1.LOGIN_ERRORS" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;">\n</div>\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="font: 0pt arial;clear:both;"></div>\n\t</div>\n\n<div style="clear: both; font: 0px arial; height: 0px; width: 0px;"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -487,6 +492,8 @@ DLG1_DlgObj._onOrientationChange =  function(e) { ;
 DLG1_DlgObj._findActiveLayoutRule();
 ;  };
 A5.__componentObj = DLG1_DlgObj;
+DLG1_DlgObj.loadCSSFile('css/bootstrap.min.css');
+DLG1_DlgObj.loadCSSFile('css/materialize.min.css');
 DLG1_DlgObj.loadCSSFile('css/CSSIcons/font-awesome/css/font-awesome.min.css');
 DLG1_DlgObj._tabObjects = [];
 A5.loadJavascript(';\n\n\n\n;');
@@ -494,7 +501,7 @@ DLG1_DlgObj._functions.runAction_fd66d1af_b745_484b_a7c3_507113c1fe98 = function
 		var go = new Object();
 		go.dialog2Name = 'main_telecom';
 	go.type = 'dialog2';
-	go.alias = 'DLG1_MAIN_TELEC_84625NIPB';
+	go.alias = 'DLG1_MAIN_TELEC_15112QZKM';
 	go.workingMessage = '<div id=load_screen><div id=loading><div class=alinear><div class="progress"><div class="indeterminate"></div></div></div></div>';
 	go.flagTimer = 'F';
 	go.flagQueryEcho = 'F';
@@ -516,7 +523,19 @@ DLG1_DlgObj._functions.runAction_fd66d1af_b745_484b_a7c3_507113c1fe98 = function
 	var panelCardId = DLG1_DlgObj.panelGetId('PANEL_APPLICATION','body');
 if($(panelCardId + '.SCROLLWRAPPER')) panelCardId = panelCardId + '.SCROLLWRAPPER';
 go.dialog2Div = panelCardId;
-	A5.component.runGenericComponent(go);
+	var runMethod = 'ajax';
+if( !DLG1_DlgObj._getOnlineStatus()) runMethod = 'precomputed';
+if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
+if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_8dcab0266ee6433e8ee3cc57e3b91951_main_telecom'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_8dcab0266ee6433e8ee3cc57e3b91951_main_telecom', uxname: 'main_telecom', alias: 'DLG1_MAIN_TELEC_15112QZKM'}
+	var jsToRun = PRECOMPUTEDUX_8dcab0266ee6433e8ee3cc57e3b91951_main_telecom(go);
+	eval(jsToRun);
+	if(typeof go.onLoadCompleteJavascript != 'undefined') eval(go.onLoadCompleteJavascript);
+} else {
+	A5.component.runGenericComponent(go)
+}
+;
 }
 DLG1_DlgObj.fieldHelpers['USERNAME'] = new A5.Edit({
 	watermark: {
@@ -548,7 +567,7 @@ DLG1_DlgObj.dialogWatches['SHOWHIDE_LOGOUT_BUTTON'] = {
 	}
 }
 DLG1_DlgObj.setStateInfo({
-	"__dialogGuid": "23aafb97-5840-41c7-8705-3d10d7616f81",
+	"__dialogGuid": "c8afc780-97ac-415c-a244-c38f71d0d2ad",
 	"argumentsBoundToCotrols": "",
 	"__sgr": "",
 	"__dtfmt": "MM/dd/yyyy",

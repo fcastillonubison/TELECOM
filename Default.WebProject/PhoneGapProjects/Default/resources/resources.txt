@@ -5,7 +5,7 @@
 	"_ssP": "",
 	"_ssA9": "",
 	"_initialUxComponent": "login_telecom",
-	"_componentLastUpdated": "27/06/2017 12:55:07 20 pm",
+	"_componentLastUpdated": "28/06/2017 03:01:18 18 pm",
 	"_ajaxUrl": "",
 	"_additionalFiles": "",
 	"_userName": "wtwx6irfQI388l610MfHcA3dx88wwCfU",
@@ -20,16 +20,18 @@
 		"enableOptions": false,
 		"loginName": "osLnGM4pUcQ=",
 		"password": "c5JMXi9Y+Ko=",
-		"serverURL": ""
+		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
 	},
 	"backupConfigFile": true,
 	"useImageMagick": true,
-	"indexHTMLMetaTags": "",
+	"indexHTMLMetaTags": "<meta name=\"format-detection\" content=\"telephone=no\">\n<meta name=\"format-detection\" content=\"email=no\">",
 	"genAppZipFile": false,
 	"zipFileLocation": "",
 	"buildTarget": "Phonegap Build",
 	"_androidBuildFlag": true,
 	"_iOSBuildFlag": true,
 	"_windowsBuildFlag": false,
-	"launchAppManager": true
+	"launchAppManager": true,
+	"_sqlitedbdefined": false,
+	"cliProjectFolder": ""
 }

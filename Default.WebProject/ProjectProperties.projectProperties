@@ -1,6 +1,6 @@
 <aexFiles<fileNames="">
 >
-<fileDownload<allowedFilenamePatterns="*.xls*,*.pdf,*.jpg,*.jpeg,*.bmp,*.png,*.rtf">
+<fileDownload<allowedFilenamePatterns="*.xls*,*.pdf,*.jpg,*.jpeg,*.bmp,*.png,*.rtf,*.woff2">
 <allowedFolderPatterns="">
 <blockedFilenamePatterns="">
 >

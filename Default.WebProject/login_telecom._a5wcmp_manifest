@@ -1,4 +1,4 @@
-A5SaveTimeStamp:20170627174923157
+A5SaveTimeStamp:20170628165705129
 css:iOS
 cssIcon:font-awesome
 subComponent:main_telecom.a5wcmp
@@ -7,3 +7,5 @@ copyfile:{C:\Users\Desarrollador\Documents\alpha TELECOM.WebProjects\Default.Web
 copyfile:{C:\Users\Desarrollador\Documents\alpha TELECOM.WebProjects\Default.WebProject\css\materialize.min.css}
 copyfile:{C:\Users\Desarrollador\Documents\alpha TELECOM.WebProjects\Default.WebProject\isotipo_entel_inv.png}
 subComponent:main_telecom
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_75e6476bd70d436c9d5050c2c0ca8cb5_main_telecom', uxname: 'main_telecom', alias: '{alias}_MAIN_TELEC_165650JLJP'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_75e6476bd70d436c9d5050c2c0ca8cb5_main_telecom', uxname: 'main_telecom', alias: '{UXPRERENDEREDALIAS}_MAIN_TELEC_165650JLJP'}
