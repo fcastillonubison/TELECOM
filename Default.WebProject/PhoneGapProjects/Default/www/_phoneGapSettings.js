@@ -45,7 +45,11 @@ function _phoneGapSettings() {
         "cordova-plugin-network-information": "npm",
         "cordova-plugin-dialogs": "npm",
         "cordova-plugin-splashscreen": "npm",
-        "cordova-plugin-whitelist": "npm"
+        "cordova-plugin-whitelist": "npm",
+        "cordova-plugin-media-capture": "npm",
+        "cordova-plugin-file": "npm",
+        "cordova-plugin-file-transfer": "npm",
+        "cordova-plugin-media": "npm"
     }
 };
 }

@@ -163,7 +163,6 @@
 		<splash platform="winphone" src ="res/screen/windows-phone/screen.scale-240.png" />
 	
     <access origin="*" />
-	<platform name="ios" />
 	<platform name="android" />
 	<feature name="http://api.phonegap.com/1.0/camera" />
 	<feature name="http://api.phonegap.com/1.0/geolocation" />
@@ -174,4 +173,10 @@
 	<plugin name="cordova-plugin-dialogs" source="npm" />
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<feature name="http://api.phonegap.com/1.0/file" />
+	<plugin name="cordova-plugin-media-capture" source="npm" />
+	<plugin name="cordova-plugin-file" source="npm" />
+	<plugin name="cordova-plugin-file-transfer" source="npm" version="1.5.1" />
+	<plugin name="cordova-plugin-media" source="npm" />
+	<platform name="ios" />
 </widget>

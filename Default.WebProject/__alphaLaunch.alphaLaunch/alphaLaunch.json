@@ -1,0 +1,23 @@
+{
+	"items": [
+		{
+			"componentName": "login_telecom",
+			"settingsJSON": "{\n\t\"id\": \"1\",\n\t\"name\": \"login\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"mensaje de instalacion\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"esta es una descripcion\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "1c6d1b5334c8494e98a771b68b601c85"
+		}	
+],
+	"testServer": {
+		"version": "1.0",
+		"description": "Available App Info",
+		"hostName": "localhost",
+		"message": "Sample message",
+		"messageVersion": 1
+	},
+	"publishing": {
+		"lastProfile": "telecomApp Localhost",
+		"lastURL": "",
+		"serverName": "test server",
+		"serverDescription": "server"
+	}
+}
