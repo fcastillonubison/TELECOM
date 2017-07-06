@@ -49,7 +49,8 @@ function _phoneGapSettings() {
         "cordova-plugin-media-capture": "npm",
         "cordova-plugin-file": "npm",
         "cordova-plugin-file-transfer": "npm",
-        "cordova-plugin-media": "npm"
+        "cordova-plugin-media": "npm",
+        "cordova-plugin-inappbrowser": "npm"
     }
 };
 }

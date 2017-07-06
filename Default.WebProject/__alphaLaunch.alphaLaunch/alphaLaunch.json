@@ -2,9 +2,21 @@
 	"items": [
 		{
 			"componentName": "login_telecom",
-			"settingsJSON": "{\n\t\"id\": \"1\",\n\t\"name\": \"login\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"mensaje de instalacion\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"esta es una descripcion\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsJSON": "{\n\t\"id\": \"loginTelecomApp\",\n\t\"name\": \"loginTelecomApp\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"mensaje de instalacion\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"esta es una descripcion\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"{\\n\\t\\\"appIcon\\\": \\\"\\\",\\n\\t\\\"template\\\": \\\"\\\"\\n}\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
 			"settingsDefined": true,
 			"guid": "1c6d1b5334c8494e98a771b68b601c85"
+		},
+		{
+			"componentName": "main_telecom",
+			"settingsJSON": "{\n\t\"id\": \"mainTelecom\",\n\t\"name\": \"mainTelecom\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "1b9fe9c9865342ffaeb6ae6dc38fdc62"
+		},
+		{
+			"componentName": "nuevousuario_telecom",
+			"settingsJSON": "{\n\t\"id\": \"newUserTelecom\",\n\t\"name\": \"newUserTelecom\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "7f8e91260cf84fc8abaf058ff7ee59d8"
 		}	
 ],
 	"testServer": {
@@ -15,9 +27,9 @@
 		"messageVersion": 1
 	},
 	"publishing": {
-		"lastProfile": "telecomApp Localhost",
+		"lastProfile": "Local Webroot",
 		"lastURL": "",
-		"serverName": "test server",
+		"serverName": "TelecomAppLocal",
 		"serverDescription": "server"
 	}
 }

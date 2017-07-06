@@ -1,6 +1,6 @@
 {
-	"id": "1",
-	"name": "login",
+	"id": "loginTelecomApp",
+	"name": "loginTelecomApp",
 	"url": "",
 	"version": "1.0.0",
 	"installMessage": "mensaje de instalacion",
@@ -17,7 +17,7 @@
 	"iconstyle": "",
 	"svg": "",
 	"advancedMode": false,
-	"advancedModeJson": "",
+	"advancedModeJson": "{\n\t\"appIcon\": \"\",\n\t\"template\": \"\"\n}",
 	"options": {
 		"iOSStatusBar": {
 			"statusBarOverlaysWebView": 1,
