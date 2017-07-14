@@ -102,7 +102,7 @@
 <stripe<keysJSON="">
 >
 <siteDefaults<guessedDefaultPage=.T.>
-<defaultpage="page_telecom.a5w">
+<defaultpage="index.a5w">
 <maxUploadSizeMB=100>
 <sessionTimeout=15>
 >

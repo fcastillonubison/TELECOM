@@ -431,10 +431,10 @@ PANEL_LOGIN : 'PANEL_LOGIN',PANEL_APPLICATION : 'PANEL_APPLICATION',PANEL_APPLIC
 };
 if(typeof DLG1_DlgObj == 'object') DLG1_DlgObj._destroy();
 var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
-	ajaxURL: 'http://192.168.100.22:1580/telecom_app/LOGIN_TELECOM.a5wcmp?__virtualPage=__a5RunDialog.a5w&__dialogFilename=LOGIN_TELECOM&__alias=DLG1&__unsaved=no',
+	ajaxURL: 'http://nubisonlab.cl:1580/telecom_app/LOGIN_TELECOM.a5wcmp?__virtualPage=__a5RunDialog.a5w&__dialogFilename=LOGIN_TELECOM&__alias=DLG1&__unsaved=no',
 	_embeddedMode: false,
 	_livePreviewInBuilder: false,
-	componentGUID: 'ac611a65-2859-4193-9133-858cf8b96765',
+	componentGUID: '6afabe21-103e-44ce-8d5c-2a7ab6ea8d3e',
 	columnInfo: {'USERNAME': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASSWORD': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
 	originalValues: [{
 	'USERNAME': '',
@@ -507,7 +507,7 @@ DLG1_DlgObj._functions.runAction_fd66d1af_b745_484b_a7c3_507113c1fe98 = function
 		var go = new Object();
 		go.dialog2Name = 'main_telecom';
 	go.type = 'dialog2';
-	go.alias = 'DLG1_MAIN_TELEC_153023XXSJ';
+	go.alias = 'DLG1_MAIN_TELEC_15410YRTP';
 	go.workingMessage = '<div id=load_screen><div id=loading><div class=alinear><div class="progress"><div class="indeterminate"></div></div></div></div>';
 	go.flagTimer = 'F';
 	go.flagQueryEcho = 'F';
@@ -533,9 +533,9 @@ go.dialog2Div = panelCardId;
 if( !DLG1_DlgObj._getOnlineStatus()) runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_05fcc8fd34b04912b67f3f957a15d4a3_main_telecom'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_05fcc8fd34b04912b67f3f957a15d4a3_main_telecom', uxname: 'main_telecom', alias: 'DLG1_MAIN_TELEC_153023XXSJ'}
-	var jsToRun = PRECOMPUTEDUX_05fcc8fd34b04912b67f3f957a15d4a3_main_telecom(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_a84438e1d12b4872a5f2d65a11db8191_main_telecom'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_a84438e1d12b4872a5f2d65a11db8191_main_telecom', uxname: 'main_telecom', alias: 'DLG1_MAIN_TELEC_15410YRTP'}
+	var jsToRun = PRECOMPUTEDUX_a84438e1d12b4872a5f2d65a11db8191_main_telecom(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') eval(go.onLoadCompleteJavascript);
 } else {
@@ -573,7 +573,7 @@ DLG1_DlgObj.dialogWatches['SHOWHIDE_LOGOUT_BUTTON'] = {
 	}
 }
 DLG1_DlgObj.setStateInfo({
-	"__dialogGuid": "45a6237d-fd87-4707-8eb9-4b4d65827b41",
+	"__dialogGuid": "4d31c72d-bbad-40bf-b4c0-be65d6711b20",
 	"argumentsBoundToCotrols": "",
 	"__sgr": "",
 	"__dtfmt": "MM/dd/yyyy",
@@ -705,6 +705,614 @@ DLG1_DlgObj._functions.calcOrientation = function() {
 DLG1_DlgObj._waitGif = 'css/A5System/Images/wait.gif';
 var EXIF=(function(){var debug=false;var ExifTags={0x9000:"ExifVersion",0xA000:"FlashpixVersion",0xA001:"ColorSpace",0xA002:"PixelXDimension",0xA003:"PixelYDimension",0x9101:"ComponentsConfiguration",0x9102:"CompressedBitsPerPixel",0x927C:"MakerNote",0x9286:"UserComment",0xA004:"RelatedSoundFile",0x9003:"DateTimeOriginal",0x9004:"DateTimeDigitized",0x9290:"SubsecTime",0x9291:"SubsecTimeOriginal",0x9292:"SubsecTimeDigitized",0x829A:"ExposureTime",0x829D:"FNumber",0x8822:"ExposureProgram",0x8824:"SpectralSensitivity",0x8827:"ISOSpeedRatings",0x8828:"OECF",0x9201:"ShutterSpeedValue",0x9202:"ApertureValue",0x9203:"BrightnessValue",0x9204:"ExposureBias",0x9205:"MaxApertureValue",0x9206:"SubjectDistance",0x9207:"MeteringMode",0x9208:"LightSource",0x9209:"Flash",0x9214:"SubjectArea",0x920A:"FocalLength",0xA20B:"FlashEnergy",0xA20C:"SpatialFrequencyResponse",0xA20E:"FocalPlaneXResolution",0xA20F:"FocalPlaneYResolution",0xA210:"FocalPlaneResolutionUnit",0xA214:"SubjectLocation",0xA215:"ExposureIndex",0xA217:"SensingMethod",0xA300:"FileSource",0xA301:"SceneType",0xA302:"CFAPattern",0xA401:"CustomRendered",0xA402:"ExposureMode",0xA403:"WhiteBalance",0xA404:"DigitalZoomRation",0xA405:"FocalLengthIn35mmFilm",0xA406:"SceneCaptureType",0xA407:"GainControl",0xA408:"Contrast",0xA409:"Saturation",0xA40A:"Sharpness",0xA40B:"DeviceSettingDescription",0xA40C:"SubjectDistanceRange",0xA005:"InteroperabilityIFDPointer",0xA420:"ImageUniqueID"};var TiffTags={0x0100:"ImageWidth",0x0101:"ImageHeight",0x8769:"ExifIFDPointer",0x8825:"GPSInfoIFDPointer",0xA005:"InteroperabilityIFDPointer",0x0102:"BitsPerSample",0x0103:"Compression",0x0106:"PhotometricInterpretation",0x0112:"Orientation",0x0115:"SamplesPerPixel",0x011C:"PlanarConfiguration",0x0212:"YCbCrSubSampling",0x0213:"YCbCrPositioning",0x011A:"XResolution",0x011B:"YResolution",0x0128:"ResolutionUnit",0x0111:"StripOffsets",0x0116:"RowsPerStrip",0x0117:"StripByteCounts",0x0201:"JPEGInterchangeFormat",0x0202:"JPEGInterchangeFormatLength",0x012D:"TransferFunction",0x013E:"WhitePoint",0x013F:"PrimaryChromaticities",0x0211:"YCbCrCoefficients",0x0214:"ReferenceBlackWhite",0x0132:"DateTime",0x010E:"ImageDescription",0x010F:"Make",0x0110:"Model",0x0131:"Software",0x013B:"Artist",0x8298:"Copyright"};var GPSTags={0x0000:"GPSVersionID",0x0001:"GPSLatitudeRef",0x0002:"GPSLatitude",0x0003:"GPSLongitudeRef",0x0004:"GPSLongitude",0x0005:"GPSAltitudeRef",0x0006:"GPSAltitude",0x0007:"GPSTimeStamp",0x0008:"GPSSatellites",0x0009:"GPSStatus",0x000A:"GPSMeasureMode",0x000B:"GPSDOP",0x000C:"GPSSpeedRef",0x000D:"GPSSpeed",0x000E:"GPSTrackRef",0x000F:"GPSTrack",0x0010:"GPSImgDirectionRef",0x0011:"GPSImgDirection",0x0012:"GPSMapDatum",0x0013:"GPSDestLatitudeRef",0x0014:"GPSDestLatitude",0x0015:"GPSDestLongitudeRef",0x0016:"GPSDestLongitude",0x0017:"GPSDestBearingRef",0x0018:"GPSDestBearing",0x0019:"GPSDestDistanceRef",0x001A:"GPSDestDistance",0x001B:"GPSProcessingMethod",0x001C:"GPSAreaInformation",0x001D:"GPSDateStamp",0x001E:"GPSDifferential"};var StringValues={ExposureProgram:{0:"Not defined",1:"Manual",2:"Normal program",3:"Aperture priority",4:"Shutter priority",5:"Creative program",6:"Action program",7:"Portrait mode",8:"Landscape mode"},MeteringMode:{0:"Unknown",1:"Average",2:"CenterWeightedAverage",3:"Spot",4:"MultiSpot",5:"Pattern",6:"Partial",255:"Other"},LightSource:{0:"Unknown",1:"Daylight",2:"Fluorescent",3:"Tungsten (incandescent light)",4:"Flash",9:"Fine weather",10:"Cloudy weather",11:"Shade",12:"Daylight fluorescent (D 5700 - 7100K)",13:"Day white fluorescent (N 4600 - 5400K)",14:"Cool white fluorescent (W 3900 - 4500K)",15:"White fluorescent (WW 3200 - 3700K)",17:"Standard light A",18:"Standard light B",19:"Standard light C",20:"D55",21:"D65",22:"D75",23:"D50",24:"ISO studio tungsten",255:"Other"},Flash:{0x0000:"Flash did not fire",0x0001:"Flash fired",0x0005:"Strobe return light not detected",0x0007:"Strobe return light detected",0x0009:"Flash fired, compulsory flash mode",0x000D:"Flash fired, compulsory flash mode, return light not detected",0x000F:"Flash fired, compulsory flash mode, return light detected",0x0010:"Flash did not fire, compulsory flash mode",0x0018:"Flash did not fire, auto mode",0x0019:"Flash fired, auto mode",0x001D:"Flash fired, auto mode, return light not detected",0x001F:"Flash fired, auto mode, return light detected",0x0020:"No flash function",0x0041:"Flash fired, red-eye reduction mode",0x0045:"Flash fired, red-eye reduction mode, return light not detected",0x0047:"Flash fired, red-eye reduction mode, return light detected",0x0049:"Flash fired, compulsory flash mode, red-eye reduction mode",0x004D:"Flash fired, compulsory flash mode, red-eye reduction mode, return light not detected",0x004F:"Flash fired, compulsory flash mode, red-eye reduction mode, return light detected",0x0059:"Flash fired, auto mode, red-eye reduction mode",0x005D:"Flash fired, auto mode, return light not detected, red-eye reduction mode",0x005F:"Flash fired, auto mode, return light detected, red-eye reduction mode"},SensingMethod:{1:"Not defined",2:"One-chip color area sensor",3:"Two-chip color area sensor",4:"Three-chip color area sensor",5:"Color sequential area sensor",7:"Trilinear sensor",8:"Color sequential linear sensor"},SceneCaptureType:{0:"Standard",1:"Landscape",2:"Portrait",3:"Night scene"},SceneType:{1:"Directly photographed"},CustomRendered:{0:"Normal process",1:"Custom process"},WhiteBalance:{0:"Auto white balance",1:"Manual white balance"},GainControl:{0:"None",1:"Low gain up",2:"High gain up",3:"Low gain down",4:"High gain down"},Contrast:{0:"Normal",1:"Soft",2:"Hard"},Saturation:{0:"Normal",1:"Low saturation",2:"High saturation"},Sharpness:{0:"Normal",1:"Soft",2:"Hard"},SubjectDistanceRange:{0:"Unknown",1:"Macro",2:"Close view",3:"Distant view"},FileSource:{3:"DSC"},Components:{0:"",1:"Y",2:"Cb",3:"Cr",4:"R",5:"G",6:"B"}};function imageHasData(img){return!!(img.exifdata)}function findEXIFinJPEG(file){if(file.getByteAt(0)!=0xFF||file.getByteAt(1)!=0xD8){return false}var offset=2,length=file.getLength(),marker;while(offset<length){if(file.getByteAt(offset)!=0xFF){if(debug)console.log("Not a valid marker at offset "+offset+", found: "+file.getByteAt(offset));return false}marker=file.getByteAt(offset+1);if(marker==22400){if(debug)console.log("Found 0xFFE1 marker");return readEXIFData(file,offset+4,file.getShortAt(offset+2,true)-2)}else if(marker==225){if(debug)console.log("Found 0xFFE1 marker");return readEXIFData(file,offset+4,file.getShortAt(offset+2,true)-2)}else{offset+=2+file.getShortAt(offset+2,true)}}}function readTags(file,tiffStart,dirStart,strings,bigEnd){var entries=file.getShortAt(dirStart,bigEnd),tags={},entryOffset,tag,i;for(i=0;i<entries;i++){entryOffset=dirStart+i*12+2;tag=strings[file.getShortAt(entryOffset,bigEnd)];if(!tag&&debug)console.log("Unknown tag: "+file.getShortAt(entryOffset,bigEnd));tags[tag]=readTagValue(file,entryOffset,tiffStart,dirStart,bigEnd)}return tags}function readTagValue(file,entryOffset,tiffStart,dirStart,bigEnd){var type=file.getShortAt(entryOffset+2,bigEnd),numValues=file.getLongAt(entryOffset+4,bigEnd),valueOffset=file.getLongAt(entryOffset+8,bigEnd)+tiffStart,offset,vals,val,n,numerator,denominator;switch(type){case 1:case 7:if(numValues==1){return file.getByteAt(entryOffset+8,bigEnd)}else{offset=numValues>4?valueOffset:(entryOffset+8);vals=[];for(n=0;n<numValues;n++){vals[n]=file.getByteAt(offset+n)}return vals}case 2:offset=numValues>4?valueOffset:(entryOffset+8);return file.getStringAt(offset,numValues-1);case 3:if(numValues==1){return file.getShortAt(entryOffset+8,bigEnd)}else{offset=numValues>2?valueOffset:(entryOffset+8);vals=[];for(n=0;n<numValues;n++){vals[n]=file.getShortAt(offset+2*n,bigEnd)}return vals}case 4:if(numValues==1){return file.getLongAt(entryOffset+8,bigEnd)}else{vals=[];for(var n=0;n<numValues;n++){vals[n]=file.getLongAt(valueOffset+4*n,bigEnd)}return vals}case 5:if(numValues==1){numerator=file.getLongAt(valueOffset,bigEnd);denominator=file.getLongAt(valueOffset+4,bigEnd);val=new Number(numerator/denominator);val.numerator=numerator;val.denominator=denominator;return val}else{vals=[];for(n=0;n<numValues;n++){numerator=file.getLongAt(valueOffset+8*n,bigEnd);denominator=file.getLongAt(valueOffset+4+8*n,bigEnd);vals[n]=new Number(numerator/denominator);vals[n].numerator=numerator;vals[n].denominator=denominator}return vals}case 9:if(numValues==1){return file.getSLongAt(entryOffset+8,bigEnd)}else{vals=[];for(n=0;n<numValues;n++){vals[n]=file.getSLongAt(valueOffset+4*n,bigEnd)}return vals}case 10:if(numValues==1){return file.getSLongAt(valueOffset,bigEnd)/file.getSLongAt(valueOffset+4,bigEnd)}else{vals=[];for(n=0;n<numValues;n++){vals[n]=file.getSLongAt(valueOffset+8*n,bigEnd)/file.getSLongAt(valueOffset+4+8*n,bigEnd)}return vals}}}function readEXIFData(file,start){if(file.getStringAt(start,4)!="Exif"){if(debug)console.log("Not valid EXIF data! "+file.getStringAt(start,4));return false}var bigEnd,tags,tag,exifData,gpsData,tiffOffset=start+6;if(file.getShortAt(tiffOffset)==0x4949){bigEnd=false}else if(file.getShortAt(tiffOffset)==0x4D4D){bigEnd=true}else{if(debug)console.log("Not valid TIFF data! (no 0x4949 or 0x4D4D)");return false}if(file.getShortAt(tiffOffset+2,bigEnd)!=0x002A){if(debug)console.log("Not valid TIFF data! (no 0x002A)");return false}if(file.getLongAt(tiffOffset+4,bigEnd)!=0x00000008){if(debug)console.log("Not valid TIFF data! (First offset not 8)",file.getShortAt(tiffOffset+4,bigEnd));return false}tags=readTags(file,tiffOffset,tiffOffset+8,TiffTags,bigEnd);if(tags.ExifIFDPointer){exifData=readTags(file,tiffOffset,tiffOffset+tags.ExifIFDPointer,ExifTags,bigEnd);for(tag in exifData){switch(tag){case"LightSource":case"Flash":case"MeteringMode":case"ExposureProgram":case"SensingMethod":case"SceneCaptureType":case"SceneType":case"CustomRendered":case"WhiteBalance":case"GainControl":case"Contrast":case"Saturation":case"Sharpness":case"SubjectDistanceRange":case"FileSource":exifData[tag]=StringValues[tag][exifData[tag]];break;case"ExifVersion":case"FlashpixVersion":exifData[tag]=String.fromCharCode(exifData[tag][0],exifData[tag][1],exifData[tag][2],exifData[tag][3]);break;case"ComponentsConfiguration":exifData[tag]=StringValues.Components[exifData[tag][0]]+StringValues.Components[exifData[tag][1]]+StringValues.Components[exifData[tag][2]]+StringValues.Components[exifData[tag][3]];break}tags[tag]=exifData[tag]}}if(tags.GPSInfoIFDPointer){gpsData=readTags(file,tiffOffset,tiffOffset+tags.GPSInfoIFDPointer,GPSTags,bigEnd);for(tag in gpsData){switch(tag){case"GPSVersionID":gpsData[tag]=gpsData[tag][0]+"."+gpsData[tag][1]+"."+gpsData[tag][2]+"."+gpsData[tag][3];break}tags[tag]=gpsData[tag]}}return tags}function getData(img,callback){if(!img.complete)return false;if(!imageHasData(img)){getImageData(img,callback)}else{if(callback){callback.call(img)}}return true}function getTag(img,tag){if(!imageHasData(img))return;return img.exifdata[tag]}function getAllTags(img){if(!imageHasData(img))return{};var a,data=img.exifdata,tags={};for(a in data){if(data.hasOwnProperty(a)){tags[a]=data[a]}}return tags}function pretty(img){if(!imageHasData(img))return"";var a,data=img.exifdata,strPretty="";for(a in data){if(data.hasOwnProperty(a)){if(typeof data[a]=="object"){if(data[a]instanceof Number){strPretty+=a+" : "+data[a]+" ["+data[a].numerator+"/"+data[a].denominator+"]\r\n"}else{strPretty+=a+" : ["+data[a].length+" values]\r\n"}}else{strPretty+=a+" : "+data[a]+"\r\n"}}}return strPretty}function readFromBinaryFile(file){return findEXIFinJPEG(file)}function BinaryFile(strData,iDataOffset,iDataLength){var data=strData;var dataOffset=iDataOffset||0;var dataLength=0;this.getRawData=function(){return data};if(typeof strData=="string"){dataLength=iDataLength||data.length;this.getByteAt=function(iOffset){return data.charCodeAt(iOffset+dataOffset)&0xFF};this.getBytesAt=function(iOffset,iLength){var aBytes=[];for(var i=0;i<iLength;i++){aBytes[i]=data.charCodeAt((iOffset+i)+dataOffset)&0xFF}return aBytes}}else if(typeof strData=="unknown"){dataLength=iDataLength||IEBinary_getLength(data);this.getByteAt=function(iOffset){return IEBinary_getByteAt(data,iOffset+dataOffset)};this.getBytesAt=function(iOffset,iLength){return new VBArray(IEBinary_getBytesAt(data,iOffset+dataOffset,iLength)).toArray()}}this.getLength=function(){return dataLength};this.getSByteAt=function(iOffset){var iByte=this.getByteAt(iOffset);if(iByte>127)return iByte-256;else return iByte};this.getShortAt=function(iOffset,bBigEndian){var iShort=bBigEndian?(this.getByteAt(iOffset)<<8)+this.getByteAt(iOffset+1):(this.getByteAt(iOffset+1)<<8)+this.getByteAt(iOffset);if(iShort<0)iShort+=65536;return iShort};this.getSShortAt=function(iOffset,bBigEndian){var iUShort=this.getShortAt(iOffset,bBigEndian);if(iUShort>32767)return iUShort-65536;else return iUShort};this.getLongAt=function(iOffset,bBigEndian){var iByte1=this.getByteAt(iOffset),iByte2=this.getByteAt(iOffset+1),iByte3=this.getByteAt(iOffset+2),iByte4=this.getByteAt(iOffset+3);var iLong=bBigEndian?(((((iByte1<<8)+iByte2)<<8)+iByte3)<<8)+iByte4:(((((iByte4<<8)+iByte3)<<8)+iByte2)<<8)+iByte1;if(iLong<0)iLong+=4294967296;return iLong};this.getSLongAt=function(iOffset,bBigEndian){var iULong=this.getLongAt(iOffset,bBigEndian);if(iULong>2147483647)return iULong-4294967296;else return iULong};this.getStringAt=function(iOffset,iLength){var aStr=[];var aBytes=this.getBytesAt(iOffset,iLength);for(var j=0;j<iLength;j++){aStr[j]=String.fromCharCode(aBytes[j])}return aStr.join("")};this.getCharAt=function(iOffset){return String.fromCharCode(this.getByteAt(iOffset))};this.toBase64=function(){return window.btoa(data)};this.fromBase64=function(strBase64){data=window.atob(strBase64)}}return{findEXIFinJPEG:findEXIFinJPEG,pretty:pretty,getTag:getTag,getAllTags:getAllTags,getData:getData,Tags:ExifTags,TiffTags:TiffTags,GPSTags:GPSTags,StringValues:StringValues,BinaryFile:BinaryFile}})();
 (function(){function detectSubsampling(img){var iw=img.naturalWidth,ih=img.naturalHeight;if(iw*ih>1024*1024){var canvas=document.createElement('canvas');canvas.width=canvas.height=1;var ctx=canvas.getContext('2d');ctx.drawImage(img,-iw+1,0);return ctx.getImageData(0,0,1,1).data[3]===0}else{return false}}function detectVerticalSquash(img,iw,ih){var canvas=document.createElement('canvas');canvas.width=1;canvas.height=ih;var ctx=canvas.getContext('2d');ctx.drawImage(img,0,0);var data=ctx.getImageData(0,0,1,ih).data;var sy=0;var ey=ih;var py=ih;while(py>sy){var alpha=data[(py-1)*4+3];if(alpha===0){ey=py}else{sy=py}py=(ey+sy)>>1}var ratio=(py/ih);return(ratio===0)?1:ratio}function renderImageToDataURL(img,options){var canvas=document.createElement('canvas');renderImageToCanvas(img,canvas,options);return canvas.toDataURL("image/jpeg",options.quality||0.8)}function renderImageToCanvas(img,canvas,options){var iw=img.naturalWidth,ih=img.naturalHeight;var width=options.width,height=options.height;var ctx=canvas.getContext('2d');ctx.save();transformCoordinate(canvas,width,height,options.orientation);var subsampled=detectSubsampling(img);if(subsampled){iw/=2;ih/=2}var d=1024;var tmpCanvas=document.createElement('canvas');tmpCanvas.width=tmpCanvas.height=d;var tmpCtx=tmpCanvas.getContext('2d');var vertSquashRatio=detectVerticalSquash(img,iw,ih);var dw=Math.ceil(d*width/iw);var dh=Math.ceil(d*height/ih/vertSquashRatio);var sy=0;var dy=0;while(sy<ih){var sx=0;var dx=0;while(sx<iw){tmpCtx.clearRect(0,0,d,d);tmpCtx.drawImage(img,-sx,-sy);ctx.drawImage(tmpCanvas,0,0,d,d,dx,dy,dw,dh);sx+=d;dx+=dw}sy+=d;dy+=dh}ctx.restore();tmpCanvas=tmpCtx=null}function transformCoordinate(canvas,width,height,orientation){switch(orientation){case 5:case 6:case 7:case 8:canvas.width=height;canvas.height=width;break;default:canvas.width=width;canvas.height=height}var ctx=canvas.getContext('2d');switch(orientation){case 2:ctx.translate(width,0);ctx.scale(-1,1);break;case 3:ctx.translate(width,height);ctx.rotate(Math.PI);break;case 4:ctx.translate(0,height);ctx.scale(1,-1);break;case 5:ctx.rotate(0.5*Math.PI);ctx.scale(1,-1);break;case 6:ctx.rotate(0.5*Math.PI);ctx.translate(0,-height);break;case 7:ctx.rotate(0.5*Math.PI);ctx.translate(width,-height);ctx.scale(-1,1);break;case 8:ctx.rotate(-0.5*Math.PI);ctx.translate(-width,0);break;default:break}}function MegaPixImage(srcImage){if(srcImage instanceof Blob){var img=new Image();var URL=window.URL&&window.URL.createObjectURL?window.URL:window.webkitURL&&window.webkitURL.createObjectURL?window.webkitURL:null;if(!URL){throw Error("No createObjectURL function found to create blob url");}img.src=URL.createObjectURL(srcImage);srcImage=img}if(!srcImage.naturalWidth&&!srcImage.naturalHeight){var _this=this;srcImage.onload=function(){var listeners=_this.imageLoadListeners;if(listeners){_this.imageLoadListeners=null;for(var i=0,len=listeners.length;i<len;i++){listeners[i]()}}};this.imageLoadListeners=[]}this.srcImage=srcImage}MegaPixImage.prototype.render=function(target,options){if(this.imageLoadListeners){var _this=this;this.imageLoadListeners.push(function(){_this.render(target,options)});return}options=options||{};var imgWidth=this.srcImage.naturalWidth,imgHeight=this.srcImage.naturalHeight,width=options.width,height=options.height,maxWidth=options.maxWidth,maxHeight=options.maxHeight;if(width&&!height){height=(imgHeight*width/imgWidth)<<0}else if(height&&!width){width=(imgWidth*height/imgHeight)<<0}else{width=imgWidth;height=imgHeight}if(maxWidth&&width>maxWidth){width=maxWidth;height=(imgHeight*width/imgWidth)<<0}if(maxHeight&&height>maxHeight){height=maxHeight;width=(imgWidth*height/imgHeight)<<0}var opt={width:width,height:height};for(var k in options)opt[k]=options[k];var tagName=target.tagName.toLowerCase();if(tagName==='img'){target.src=renderImageToDataURL(this.srcImage,opt)}else if(tagName==='canvas'){renderImageToCanvas(this.srcImage,target,opt)}if(typeof this.onrender==='function'){this.onrender(target)}};if(typeof define==='function'&&define.amd){define([],function(){return MegaPixImage})}else{this.MegaPixImage=MegaPixImage}})();
+/*
+Copyright (c) 2001, 2013 Alpha Software Corporation
+All Rights Reserved.
+This Javascript library is licensed exclusively for use with Alpha Anywhere, Alpha Five,
+Alpha Five Application Server, Alpha Anywhere Application Server,
+Alpha Five Run Engine, and Alpha Anywhere Run Engine. It is specifically
+not licensed for use on a server that does not have installed on it a
+licensed copy of the Alpha Five Application Server or the Alpha Anywhere Application Server.
+*/
+var obj = {
+//startdefinition//
+	_evalJS: function(str) {
+		if( str.toLowerCase().indexOf('javascript:') == -1) return str;
+		var func = str.split(':')[1];
+		var _ret = ''
+		func = func.replace('()','');
+		if( typeof window[func] != 'undefined') {
+			_ret = window[func].call();
+		} else {
+			_ret = '<default>';
+		}
+		return _ret;
+	},
+	_deleteDataCacheFiles: function() {
+		var _files = arguments[0];
+		if(typeof _files == 'undefined') _files = '<all>';
+		if(_files.toLowerCase() == '<all>') _files = _files.toLowerCase();
+		var _onSuccess = arguments[1];
+		var _onFail = arguments[2];
+		if(typeof _onSuccess == 'undefined') {
+			_onSuccess = function() { alert('File(s) were deleted.');}
+		}
+		if(typeof _onFail == 'undefined') {
+			_onFail = function() { alert('Error - file(s) were not deleted.')}
+		}
+		var o = this._getDataCacheFilesystemLocation();
+		var _baseURI = this.phoneGapGetLocalDirURL(o._fs);;
+		var _dirName = o._dir + '/';
+		var _dirPath = _baseURI + _dirName;
+		var flagAll = false;
+		if(_files == '<all>') {
+			//delete a directory
+			this.phoneGapRemoveDirectoryRecurseURL(_dirPath, _onSuccess, _onFail);
+		} else {
+			//delete an individual file
+			var fn = _files + '.json';
+			if(o._strip == false) fn = 'A5SessionFile/' + _files + '.json';
+			var _filePath = _dirPath + fn;
+			//alert(_filePath);
+			this.phoneGapDeleteFileURL(_filePath, _onSuccess,_onFail);
+		}
+	},
+	deleteFromDataCache: function(item,onSuccessIn,onError) {
+		var arr = [];
+		var flagAll = false
+		var flagPG
+		if(item.toLowerCase() == '<all>') {
+			flagAll = true;
+			for(var n in this._dataCache) {
+				arr.push(n)
+			}
+		} else {
+			arr.push(item)
+		}
+		var _dc = this._dataCache
+		var _dci = '';
+		var nsObj = this._localStorageSettings;
+		var ns = nsObj.namespace;
+		var key = ''
+		var location = '';
+		var flagHasFSItems = false;
+		var flagEventsHaveFired = false;
+		//if item = <all> then loop over all items in arr[] and delete localStorage
+		//but do not delete any filesystem items as they will be deleted by making a single call to _dleteDataCacheFiles()
+		for(var i = 0; i < arr.length; i++) {
+			_dci = _dc[arr[i]];
+			if(_dci.persist) {
+				if(_dci.persisted || true) {
+					location = _dci.persistWhere.toLowerCase();
+					if(_dci.persistWhere.toLowerCase() == 'localstorage') {
+						var key = ns + '._dataCache_' + arr[i];
+						localStorage.removeItem(key)
+					} else {
+						//filesystem
+						flagHasFSItems = true;
+						if(!flagAll) this._deleteDataCacheFiles(arr[i],onSuccessIn,onError);
+						flagEventsHaveFired = true;
+					}
+				}
+			}
+		}
+		//done with loop -- we have deleted all localstorage items and filesystem items (as long as item was not <all>
+		if(flagAll) {
+			//delete all from file system at once - this will take care of firing the events
+			this._deleteDataCacheFiles('<all>',onSuccessIn,onError);
+		} else {
+			//user selected a single item. if it was a localstorage item, events have not yet fired
+			if(!flagEventsHaveFired) if(onSuccessIn) onSuccessIn.call();
+		}
+    },
+	_getDataCacheFilesystemLocation: function() {
+		var _dc = this._dataCache;
+		var flagUsesFS = false;
+		var _fs = '';
+		var _dir = '';
+		var _strip = '';
+		var _dci = ''
+		for(var n in _dc) {
+			_dci = _dc[n];
+			if(typeof _dci.fileSystem != 'undefined') {
+				flagUsesFS = true;
+				_fs = _dci.fileSystem;
+				_dir = _dci.directory;
+				_strip = _dci.strip;
+				_dir = this._evalJS(_dir);
+				_fs = this._evalJS(_fs);
+				if(_fs.toLowerCase() == '<default>') _fs = 'persistent';
+				if(_dir.toLowerCase() == '<default>') _dir = '__AADataCache';
+				_dci.directory = _dir;
+				_dci.fileSystem = _fs
+			}
+		}
+		return {flagUsesFileSystem: flagUsesFS, _fs: _fs, _dir: _dir, _strip: _strip};
+	},
+	listFilesInDataCache: function() {
+		var o = this._getDataCacheFilesystemLocation();
+		if(o.flagUsesFileSystem == false) {
+			alert('Data cache does not persist to the file system');
+			return false;
+		}
+		if(typeof arguments[0] != 'undefined') {
+			var _onSuccess = arguments[0];
+		} else {
+			var _onSuccess = function(filelist) {
+				var msg = JSON.stringify(filelist);
+				alert('Files found: ' + msg);
+			}
+		};
+		if(typeof arguments[1] != 'undefined') {
+			var _error = arguments[1];
+		} else {
+			var _error = function(e) {
+				alert('No files found: ' + JSON.stringify(e));
+			};
+		};
+		var _baseURI = this.phoneGapGetLocalDirURL(o._fs);;
+		var _dirName = o._dir
+		var _dirPath = _baseURI + _dirName;
+		this.phoneGapListFilesRecurseURL(_dirPath, _onSuccess, _error);
+	},
+	fetchDataCacheFiles: function(filesArray,targetFolder,progObj,callbackId,item,_dlgObj,onRefreshAllComplete) {
+ 		var fn = false;
+ 		try {
+			var obj = JSON.parse(targetFolder);
+			var _fs = obj._fs;
+			var _dir = obj._dir;
+			var _strip = obj._strip
+		}
+		catch(err) {
+		  var _fs = '<default>';
+		  var _dir = '<default>';
+		  var _strip = false;
+		}
+		_dir = this._evalJS(_dir);
+		_fs = this._evalJS(_fs);
+		var _dc = this._dataCache[item];
+		_dc._fs = _fs;
+		_dc._dir = _dir;
+		_dc._strip = _strip
+ 		if(typeof progObj.javascript != 'undefined') {
+ 			fn = progObj.javascript.beforeDownloadBegin;
+ 		}
+ 		if(typeof fn == 'function') fn.call(this,{totalFileSize: progObj.totalFileSize, fileCount: progObj.fileCount});
+    	if(typeof targetFolder == 'undefined' || targetFolder == '') targetFolder = '__AADataCache';
+    	if(typeof progObj == 'undefined') {
+    		showProgress = false;
+    		progObj = {};
+    	}
+    	if(typeof progObj.showProgress == 'undefined') progObj.showProgress =  false;;
+    	if(typeof progObj.color == 'undefined') progObj.color =  '#9fa1e8';
+    	if(typeof progObj.width == 'undefined') progObj.width = '300px;';
+    	if(typeof progObj.placeHolder == 'undefined') progObj.showProgress = false;
+    	progressElement = progObj.placeHolder;
+		var arr = [];
+		for(var i = 0; i < filesArray.length; i++) {
+			arr.push( {filename: filesArray[i]} );
+		}
+		//targetFolder: targetFolder,
+		var that = this;
+		var options = {
+			totalFileSize: progObj.totalFileSize,
+			filesystem: _fs,
+			directory: _dir,
+			strip: _strip,
+			showProgress: progObj.showProgress,
+			forceDownloadIfFileExists: true,
+			onComplete: function(array) {
+				if(callbackId == '') {
+					//alert('all done - call the oncomplete function:' + onRefreshAllComplete);
+					var objx = _dlgObj._ajaxCallbackCompleteCode;
+					var onSuccess =	objx[onRefreshAllComplete].success;
+					onSuccess.call();
+					delete objx[callbackId];
+				} else {
+					//alert('all done fetching data from server -- now call the oncomplete for THE item = callback id:' + callbackId + '\nitemName: ' + item);
+					var objx = _dlgObj._ajaxCallbackCompleteCode;
+					var onSuccess =	objx[callbackId].success;
+					var onError = 	objx[callbackId].fail;
+					delete objx[callbackId];
+					var o = that._getDataCacheFilesystemLocation();
+					var objFS = {_fs: o._fs, _dir: o._dir, _strip: o._strip };
+					_dlgObj.getDataCacheItemFromFile(item,onSuccess,onError,objFS);
+				}
+			},
+			onError: function(array,arrayIndex) {
+				alert('Error fetching files in data cache');
+			},
+			progress: {
+				color: progObj.color,
+				width: progObj.width,
+				allowCancel: false,
+				progressElement: progressElement
+			}
+		}
+		this.phoneGapFileDownload(arr,options);
+    },
+    getDataCacheItemFromFile: function(itemName,onSuccess,onError,options) {
+    	var fnObj = {};
+    	fnObj.fileNameShort = itemName + '.json';
+    	fnObj._fs = options._fs;
+    	fnObj._dir = options._dir;
+    	fnObj._strip = options._strip;
+    	this.phoneGapReadFile(fnObj,function(data) {
+    		var d1 = new Date();
+    		try {
+    			data = JSON.parse(data);
+	    		var d2 = new Date();
+				onSuccess(data);
+			} catch(e) {
+				alert('Error - Could not JSON.parse data in file');
+			}
+		},function() { alert('failed'); })
+    },
+    getFromDataCache: function(item,onSuccessIn,onError,filterString,orderString) {
+    	var opsIn = arguments[5];
+    	//example: {columns: ['City','Country'], distinct: true, distinctColumn: 'Country'}
+    	if(typeof opsIn == 'undefined') opsIn = {};
+    	var _dlgObj = window[this.dialogId + '_DlgObj'];
+    	var _dc = _dlgObj._dataCache[item];
+    	if(typeof _dc == 'undefined') {
+    		alert('Item not defined: \''+item+'\'');
+    		return false;
+    	}
+    	if(typeof filterString == 'undefined') filterString = '';
+    	if(typeof orderString == 'undefined') orderString = '';
+    	//redefine the onSuccess function
+    	var opsInJSON = JSON.stringify(opsIn);
+    	if(opsInJSON == '{}') opsInJSON = '';
+    	if(filterString + orderString + opsInJSON != '') {
+    	   	var onSuccess = function(data) {
+    	   		data = A5FilterPropertyArray(data,filterString,orderString,opsIn);
+    			onSuccessIn(data);
+    		}
+    	} else  {
+    		var onSuccess = onSuccessIn;
+    	}
+    	var cb = function(flag) {
+    		//alert('Item \''+item+'\'is in cache: ' + flag + ' ---- ' + _dc.persisted);
+    		if(flag) { //in cache
+   				_dc.persisted = true;
+   			} else { //not in cache
+    			_dc.persisted = false;
+    		}
+    		_dlgObj._getFromDataCacheLow(item,onSuccess,onError)
+    	}
+    	//alert('PERSISTED: ' + _dc.persisted +'\nPERSIST: ' + _dc.persist + '\nDELAYED: ' + _dc.delayed);
+    	if(_dc.delayed == false  ) {
+    		//alert('read directly from object');
+    		var data = [];
+    		$u.o.assign(data,_dc.data)
+    		onSuccess.call(this,data);
+    	} else {
+    		this._isDataItemInCache(item,cb)
+    	}
+    },
+	_getFromDataCacheLow: function(item,onSuccess,onError) {
+		var _dc = this._dataCache;
+		if(typeof _dc == 'undefined') {
+			if(typeof onError == 'function') {
+				onError.call();
+			} else {
+				alert('UX does not have a data cache');
+			}
+			return false;
+		}
+		_dc = _dc[item];
+		if(typeof _dc == 'undefined') {
+			if(typeof onError == 'function') {
+				onError.call();
+			} else {
+				alert('Item not found in data cache: ' + item);
+			}
+			return false;
+		}
+		flagMakeAjaxCallback = false;
+		if(_dc.persist == false) {
+			//persist is false
+			if(_dc.delayed == false) {
+				//data is available in _dataCache (_dc), but we never actually get here because getDataFromCache() handles this
+				alert('data is available in _dc - should never get here');
+			} else {
+				//alert('make a callback - delayed data has not been fetched');
+				flagMakeAjaxCallback = true;
+			}
+		} else {
+			//persist is true
+			if(_dc.persisted) {
+				//alert('data has been persisted into cache - read from cache');
+			} else {
+				//alert('data has not yet been persisted - make ajax callback');
+				flagMakeAjaxCallback = true;
+			}
+		};
+		if(flagMakeAjaxCallback) {
+			//make ajax callback to get delayed non-persistable item or persistable item that has not yet been persisted
+			var cbData = '_item=' + item;
+			var callbackId = A5.UUID();
+			cbData = cbData + '&_callbackId=' + callbackId;
+			var pgLoaded = 'no';
+			if (typeof window['cordova'] != 'undefined') pgLoaded = 'yes';
+			cbData = cbData + '&_phoneGapLoaded=' + pgLoaded;
+			var objx = this._ajaxCallbackCompleteCode;
+			objx[callbackId] = {};
+			objx[callbackId].success = onSuccess;
+			objx[callbackId].fail = onError;
+			var obj = {};
+			obj.errorFunction = function() { };
+			obj.onComplete = function() {  };
+			obj.deviceOfflineFunction = function() { };
+			//alert('Make ajax callback to get: ' + item)
+			this._executeEvent('onBeforeClientSideDataCacheRead',{item: item,hasBeenFetched: false ,location: ''});
+			this.ajaxCallback('','','__A5SystemRefreshDataCacheItem','',cbData,obj);
+		} else {
+			//read from cache (local storage or file)
+			var persistWhere = _dc.persistWhere;
+			var flagPG = false;
+			if(typeof window['cordova'] != 'undefined') flagPG = true;
+			if(!flagPG) {
+				if(persistWhere == 'FileSystemPreferred') {
+					persistWhere = 'LocalStorage';
+				} else if (persistWhere  == 'FileSystem') {
+					alert('Cannot read item from file system when not running in PhoneGap.');
+					onError.call();
+					return false;
+				}
+			}
+			if(persistWhere == 'LocalStorage') {
+				var nsObj = this._localStorageSettings;
+				var ns = nsObj.namespace;
+				var key = ns + '._dataCache_' + item;
+				//alert('has been fetched - read from local storage');
+				this._executeEvent('onBeforeClientSideDataCacheRead',{item: item,hasBeenFetched: true ,location: 'localStorage'});
+				this._readFromLocalStorage(key,onSuccess,onError);
+			} else {
+				//read from file system
+				//alert('has been fetched - read from file system')
+				this._executeEvent('onBeforeClientSideDataCacheRead',{item: item,hasBeenFetched: true ,location: 'fileSystem'});
+				var o = this._getDataCacheFilesystemLocation();
+				var objFS = {_fs: o._fs, _dir: o._dir, _strip: o._strip };
+				this.getDataCacheItemFromFile(item,onSuccess,onError,objFS);
+			}
+		}
+	},
+	_isDataItemInCache: function(item,cb) {
+		var _dc = this._dataCache[item];
+		var flagPG = false;
+		if(typeof window['cordova'] != 'undefined') flagPG = true;
+		if(flagPG) {
+			if(_dc.persistWhere == 'LocalStorage') flagPG = false;
+		}
+		if(!flagPG) {
+			var nsObj = this._localStorageSettings;
+			var ns = nsObj.namespace;
+			var key = ns + '._dataCache_' + item;
+			var flagWP = this._embeddedMode;
+			var ls = this._localStorageSettings;
+			if(flagWP && ls.workingPreviewTestingMode.toLowerCase() == 'filesystem') {
+				//always set to false for working preview-filesystem-mode mode - forces an ajax callback
+				if(_dc) _dc.foundInCache = false;
+				cb(false,item);
+			} else {
+				var indx = -1;
+				for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+					if(localStorage.key(i) == key) {
+						indx = i;
+						break;
+					}
+				}
+				var flagFound = false;
+				if(indx > -1) flagFound = true;
+				//alert('2 '  + ' found: ' + flagFound)
+				if(_dc) _dc.foundInCache = flagFound;
+				cb(flagFound,item)
+			}
+		} else {
+			//phonegap
+			var _fs = 'persistent';
+			var _dir = '__AADataCache';
+			if(typeof _dc.fileSystem != 'undefined') _fs = _dc.fileSystem;
+			if(typeof _dc.directory != 'undefined') _dir = _dc.directory;
+			if(_fs == '<default>') _fs = 'persistent';
+			if(_dir == '<default>') _dir = '__AADataCache';
+			 var _onSuccess = function(filelist) {
+				var msg = JSON.stringify(filelist);
+				var i = filelist.indexOf(item + '.json');
+				if(i < 0) i = filelist.indexOf('A5SessionFile/' + item  + '.json');
+				if(i >=0) {
+					//alert('found in cache - fetch from disk');
+					if(_dc) _dc.foundInCache = true;
+					cb(true,item);
+				} else {
+					//alert('cache files found, but this file not found - fetch from server');
+					if(_dc) _dc.foundInCache = false;
+					cb(false,item);
+				}
+			};
+			var _error = function(e) {
+				//no files in cache
+				//alert('no files in cache - fetch from server');
+				if(_dc) _dc.foundInCache = false;
+				cb(false,item);
+			};
+			var _baseURI = this.phoneGapGetLocalDirURL(_fs);;
+			var _dirName = _dir + '/';
+			var _dirPath = _baseURI + _dirName;
+			this.phoneGapListFilesRecurseURL(_dirPath, _onSuccess, _error);
+		}
+	},
+	_fetchItemsNotInCache: function(items,onComplete) {
+		//fetches any delayed items that have not yet been fetched
+		var _dlgObj = window[this.dialogId + '_DlgObj'];
+		items = items.split(',');
+		var arr = [];
+		for(var i = 0; i < items.length; i++) {
+			arr.push({item: items[i], found: null});
+		}
+		var itemName = '';
+		var ix = '';
+		for(var i = 0; i < arr.length; i++) {
+			itemName = arr[i].item;
+			function _cb(flag,item) {
+				ix = -1;
+				for(var i2 = 0; i2 < arr.length; i2++) {
+					if(arr[i2].item == item) {
+						arr[i2].found = flag;
+						break;
+					}
+				}
+				var flagAllDone = true;
+				for(var i2 = 0; i2 < arr.length; i2++) {
+					if(arr[i2].found == null) {
+						flagAllDone = false;
+						break;
+					}
+				}
+				if(flagAllDone) {
+					var itemsToRefresh = [];
+					for(var i2 = 0; i2 < arr.length; i2++) {
+						if(!arr[i2].found) {
+							if(typeof _dlgObj._dataCache[arr[i2].item] != 'undefined') {
+								itemsToRefresh.push(arr[i2].item); //don't try to refresh non-existent items
+							}
+						}
+					}
+					//alert('items to fetch: ' + JSON.stringify(itemsToRefresh));
+					if(itemsToRefresh.length == 0) {
+						onComplete.call();
+					} else {
+						_dlgObj.refreshDataCacheItem(itemsToRefresh.join(','),onComplete)
+					}
+				}
+			}
+			_dlgObj._isDataItemInCache(itemName,_cb);
+		}
+	},
+	_removeUndefinedItems: function(items) {
+		items = items.split(',');
+		var arr = [];
+		var obj = '';
+		for(var i = 0; i < items.length; i++) {
+			obj = this._dataCache[items[i]];
+			if(typeof obj != 'undefined') arr.push(items[i]);
+		}
+		return arr.join(',');
+	},
+	readDataCacheItems: function(items,onComplete) {
+		//read multiple items at once, then call onComplete
+		items = this._removeUndefinedItems(items);
+		var _dlgObj = window[this.dialogId + '_DlgObj'];
+		var _cb = function() {
+			_dlgObj.readDataCacheItems_low(items,onComplete);
+		}
+		//first make sure all items are in the cache
+		_dlgObj._fetchItemsNotInCache(items,_cb);
+	},
+	readDataCacheItems_low: function(items,onComplete) {
+		var _dlgObj = window[this.dialogId + '_DlgObj'];
+		var objData = {};
+		var arr = [];
+		items = items.split(',');
+		for(var i = 0; i < items.length; i++) {
+			arr.push({item: items[i], data: null, complete: null});
+		}
+		var _onFail = function() { 	};
+		var _filter = '';
+		var _order = '';
+		var itemName = '';
+		this.__dataItemRead = function(data,itemName) {
+			var ix = -1;
+			for(var i = 0; i < arr.length; i++) {
+				if(arr[i].item == itemName) {
+					arr[i].complete = true;
+					objData[itemName] = data;
+				}
+			}
+			var flagAllDone = true;
+			for(var i = 0; i < arr.length; i++) {
+				if(arr[i].complete == null) {
+					flagAllDone = false;
+					break;
+				}
+			}
+			if(flagAllDone) {
+				onComplete.call(this,objData);
+				delete arr;
+				delete objData;
+			}
+		}
+		for(var i = 0; i < arr.length; i++) {
+			itemName = arr[i].item;
+			var functionString = 'window[\''+this.dialogId + '_DlgObj'+'\'].__dataItemRead(data,\'' +itemName+'\');'
+			var _onSuccess = Function('data',functionString);
+			_dlgObj.getFromDataCache(arr[i].item,_onSuccess,'','','');
+		}
+	},
+	_runGetDataCallback: function(cbid,item,dataPassedIn) {
+		var objx = this._ajaxCallbackCompleteCode;
+		if(typeof objx == 'undefined') return false;
+		var fn = objx[cbid];
+		if(typeof fn == 'undefined') return false;
+		var _dc = this._dataCache[item];
+		if(typeof _dc == 'undefined') return false;
+		if(_dc.hasError == false) type = 'success';
+		else type = 'fail';
+		if(type == 'success') {
+			fn = fn.success;
+		} else {
+			fn = fn.fail;
+		}
+		if(typeof dataPassedIn == 'undefined') {
+			var data = this._dataCache[item].data;
+			var d2 = [];
+			$u.o.assign(d2,data);
+			fn.call(this,d2);
+		} else {
+			fn.call(this,dataPassedIn);
+		}
+		delete objx[cbid]; //delete from stack
+	},
+	refreshDataCacheItem: function(item) {
+		var cbData = '_item=' + item;
+		var pgLoaded = 'no';
+		if (typeof window['cordova'] != 'undefined') pgLoaded = 'yes';
+		cbData = cbData + '&_phoneGapLoaded=' + pgLoaded;
+		var obj = {};
+		obj.errorFunction = function() {  };
+		obj.onComplete = function() { };
+		obj.deviceOfflineFunction = function() {   };
+		var onComplete = arguments[1];
+		if(typeof onComplete == 'function') {
+			var guid = A5.UUID();
+			var objx = this._ajaxCallbackCompleteCode;
+			objx[guid] = {}
+			objx[guid].success = onComplete;
+			cbData = cbData + '&_onCompleteDataItemRefresh=' + guid;
+		}
+		this.ajaxCallback('','','__A5SystemRefreshDataCacheItem','',cbData,obj);
+	},
+	addDataItemToLocalStorage: function(item,data, callbackId) {
+		var nsObj = this._localStorageSettings;
+		var ns = nsObj.namespace;
+		//alert('add item to cache: ' + item + ' namespace: ' + ns);
+		var key = ns + '._dataCache_' + item;
+		var flag = this._persistToLocalStorageLow(key,JSON.stringify(data));
+		var _dc = this._dataCache[item];
+		if(flag == false) {
+			var fn = _dc.persistToLocalStorageFailed;
+			fn.call();
+		} else {
+			if(callbackId != '') {
+				this._runGetDataCallback(callbackId,item,data);
+				delete data;
+			}
+		}
+	}
+//enddefinition//
+}
+$u.o.assign(DLG1_DlgObj,obj)
 DLG1_DlgObj._embeddedUXComponents = {
 }
 DLG1_DlgObj._loginErrorPH = 'LOGIN_ERRORS';
@@ -718,7 +1326,7 @@ CONTAINER_2: ['UserName','Password']
 }
 DLG1_DlgObj._listsDV = [];
 DLG1_DlgObj._listControls = [];
-DLG1_DlgObj._localStorageSettings = {namespace: 'ALPHA_6afabe21103e44ce8d5c2a7ab6ea8d3e',friendlyName: '',description: '',persistVariableValues: false,__version: 1,persistComponentState: false,workingPreviewTestingFolder: '',restore: {variables: false,data: false,state: false},compressData: false,minify: false,variablesToNotPersist: '',workingPreviewTestingMode: 'Browser',compressListData: false}
+DLG1_DlgObj._localStorageSettings = {namespace: 'ALPHA_6afabe21103e44ce8d5c2a7ab6ea8d3e',friendlyName: '',description: '',persistVariableValues: true,__version: 1,persistComponentState: false,workingPreviewTestingFolder: '',restore: {variables: false,data: true,state: false},compressData: true,minify: false,variablesToNotPersist: '',workingPreviewTestingMode: 'Browser',compressListData: true}
 ;
 DLG1_DlgObj.__r = []
 DLG1_DlgObj._staticHTMLMode = false
@@ -727,6 +1335,17 @@ DLG1_DlgObj.styleName = 'iOS';
 DLG1_DlgObj.styleVersion = 2
 DLG1_DlgObj.framesInfo = {
 };
+DLG1_DlgObj._beforePrepare = function(e) { if(typeof DLG1_DlgObj._dataCache == 'undefined') {DLG1_DlgObj._dataCache = {};};
+DLG1_DlgObj._dataCache = {
+	'prueba' : {
+		delayed: true,
+		persisted: false,
+		persistWhere: 'LocalStorage',
+		persist: true,
+		hasError: false,
+		data:  null 
+	}
+}};
 DLG1_DlgObj._noPersist = []
 ;
 ;
