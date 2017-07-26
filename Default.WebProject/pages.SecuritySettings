@@ -62,4 +62,12 @@
 <action="allow">
 <groups="">
 >
+<[17]<page="persistent.a5wcmp">
+<action="allow">
+<groups="">
+>
+<[18]<page="base.a5wcmp">
+<action="allow">
+<groups="">
+>
 >

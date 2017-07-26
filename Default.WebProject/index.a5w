@@ -12,37 +12,41 @@
 <title>Nubison</title>
 
 <%a5
-Delete tmpl_LOGIN_TELECOM
-DIM tmpl_LOGIN_TELECOM as P
-tmpl_LOGIN_TELECOM = a5w_load_component("login_telecom") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:login_telecom)
+Delete tmpl_PERSISTENT
+DIM tmpl_PERSISTENT as P
+tmpl_PERSISTENT = a5w_load_component("persistent") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:persistent)
 
 'Override settings start -----------------------------------------
-with tmpl_LOGIN_TELECOM
-.alias = "LOGIN_TELECOM"
-_dialogFilename = "login_telecom"
+with tmpl_PERSISTENT
+.alias = "PERSISTENT"
+_dialogFilename = "persistent"
 end with 
 'Override settings end -----------------------------------------
 
-delete x_LOGIN_TELECOM
-dim x_LOGIN_TELECOM as p
-x_LOGIN_TELECOM = a5w_run_Component(tmpl_LOGIN_TELECOM) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:login_telecom)
+delete x_PERSISTENT
+dim x_PERSISTENT as p
+x_PERSISTENT = a5w_run_Component(tmpl_PERSISTENT) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:persistent)
 
-?x_LOGIN_TELECOM.Output.Head.JavaScript
-?x_LOGIN_TELECOM.Output.Head.CSS_Link
+?x_PERSISTENT.Output.Head.JavaScript
+?x_PERSISTENT.Output.Head.CSS_Link
 
-?x_LOGIN_TELECOM.Output.Head.Title 
+?x_PERSISTENT.Output.Head.Title 
 %>
 
 
 <!--Alpha Five Temporary Code Start - Will be automatically removed when page is published -->
 <!--CSS for tmpl -->
-<link rel="stylesheet" type="text/css" href="file:///C:/Program Files (x86)/a5V12/css/iOS/style.css">
+<link rel="stylesheet" type="text/css" href="file:///C:/Program Files (x86)/a5V12/css/iOS7/style.css">
 <!--Alpha Five Temporary Code End -->
+
 
 </head>
 <body>
 
-<%a5 ?x_LOGIN_TELECOM.Output.Body.Dialog2_HTML %>
+
+<%a5 ?x_PERSISTENT.Output.Body.Dialog2_HTML %>
 <%a5 ?a5dialogHelper_generateCORSHeaders() %>
+
+
 
 </body></html>
