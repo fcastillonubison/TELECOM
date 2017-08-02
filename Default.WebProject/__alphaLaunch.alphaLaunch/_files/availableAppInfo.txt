@@ -6,6 +6,26 @@
 	"messageVersion": 1,
 	"appList": [
 		{
+			"id": "entelbase",
+			"name": "entelbase",
+			"description": "",
+			"url": "base_60b2a4da021947cc91156298735cc1de",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/base_60b2a4da021947cc91156298735cc1de/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		},
+		{
 			"id": "loginTelecomApp",
 			"name": "loginTelecomApp",
 			"description": "esta es una descripcion",
@@ -14,7 +34,27 @@
 			"installMessage": "mensaje de instalacion",
 			"minSize": "",
 			"maxSize": "",
-			"ajaxURL": "http://192.168.100.22:1580/telecom_app/login_telecom_1c6d1b5334c8494e98a771b68b601c85/",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/login_telecom_1c6d1b5334c8494e98a771b68b601c85/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		},
+		{
+			"id": "entellogin",
+			"name": "entellogin",
+			"description": "",
+			"url": "login_telecom_d864793325a44efaae418cbe8db785fa",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/login_telecom_d864793325a44efaae418cbe8db785fa/",
 			"type": "manifest",
 			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
 			"options": {
@@ -34,7 +74,47 @@
 			"installMessage": "",
 			"minSize": "",
 			"maxSize": "",
-			"ajaxURL": "http://192.168.100.22:1580/telecom_app/main_telecom_1b9fe9c9865342ffaeb6ae6dc38fdc62/",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/main_telecom_1b9fe9c9865342ffaeb6ae6dc38fdc62/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		},
+		{
+			"id": "entelmain",
+			"name": "entelmain",
+			"description": "",
+			"url": "main_telecom_fffa9b47993040dfbf6f4098e1d5a9dd",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/main_telecom_fffa9b47993040dfbf6f4098e1d5a9dd/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		},
+		{
+			"id": "entelnew",
+			"name": "entelnew",
+			"description": "",
+			"url": "nuevousuario_telecom_1260dd8bc60142bd88502c6d64dadb9a",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/nuevousuario_telecom_1260dd8bc60142bd88502c6d64dadb9a/",
 			"type": "manifest",
 			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
 			"options": {
@@ -54,7 +134,27 @@
 			"installMessage": "",
 			"minSize": "",
 			"maxSize": "",
-			"ajaxURL": "http://192.168.100.22:1580/telecom_app/nuevousuario_telecom_7f8e91260cf84fc8abaf058ff7ee59d8/",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/nuevousuario_telecom_7f8e91260cf84fc8abaf058ff7ee59d8/",
+			"type": "manifest",
+			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
+			"options": {
+				"iOSStatusBar": {
+					"statusBarOverlaysWebView": 1,
+					"statusBarTextWhite": 0,
+					"statusBarBackgroundHexColor": "#FFF"
+				}
+			}
+		},
+		{
+			"id": "entel",
+			"name": "TELECOMAPP",
+			"description": "",
+			"url": "persistent_79dcaa6444d0448d9bd7c470ace25c09",
+			"version": "1.0.0",
+			"installMessage": "",
+			"minSize": "",
+			"maxSize": "",
+			"ajaxURL": "http://nubisonlab.cl:1580/telecomapp/persistent_79dcaa6444d0448d9bd7c470ace25c09/",
 			"type": "manifest",
 			"template": "<table style=\"background-color:#5345f2; padding-top:0px;padding-bottom:12px;width:100%;padding-top:12px\">  <tr>   <td style=\"width:64px;\">             <img  style=\"\" src=\"\" />   </td>   <td>    <p style=\"font-size: 20px; padding-left:20px; color:#fff; font-family:arial; margin-bottom:0px;\">{name}</p>    <p style=\"font-size: 14px; padding-left:20px; color:#fff; font-family:arial; margin-top:0px;\">{desc}</p>   </td>  </tr> </table> ",
 			"options": {

@@ -1,6 +1,6 @@
 function _phoneGapSettings() { 
  return {
-    "appId": "com.yourCompany.yourApp",
+    "appId": "cl.nubisonlab.telecomapp",
     "preferences": {
         "permissions": "",
         "orientation": "default",
