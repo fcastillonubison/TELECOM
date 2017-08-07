@@ -1,0 +1,30 @@
+{
+	"id": "loginTelecomApp",
+	"name": "loginTelecomApp",
+	"url": "",
+	"version": "1.0.0",
+	"installMessage": "mensaje de instalacion",
+	"minSize": "",
+	"maxSize": "",
+	"description": "esta es una descripcion",
+	"other": {
+		"developerName": "",
+		"deveroperEmail": ""
+	},
+	"BackgroundColor": "#5345f2",
+	"icontype": "Bitmap",
+	"iconbitmap": "",
+	"iconstyle": "",
+	"svg": "",
+	"advancedMode": false,
+	"advancedModeJson": "{\n\t\"appIcon\": \"\",\n\t\"template\": \"\"\n}",
+	"options": {
+		"iOSStatusBar": {
+			"statusBarOverlaysWebView": 1,
+			"statusBarTextWhite": 0,
+			"statusBarBackgroundHexColor": "#FFF"
+		}
+	},
+	"downloadtype": "manifest",
+	"downloadLocation": ""
+}

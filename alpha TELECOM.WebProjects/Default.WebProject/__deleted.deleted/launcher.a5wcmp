@@ -1,0 +1,100 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "builderType": "CustomComponent",
+        "subtype": "AppLauncher",
+        "guid": "6716baa1-b614-4710-9c08-c396a92fc0de",
+        "style_name": "iOS7",
+        "componentName": "launcher",
+        "componentFilename": "C:\\Users\\Desarrollador\\Documents\\alpha TELECOM.WebProjects\\Default.WebProject\\launcher.a5wcmp",
+        "style_type": "Alpha Five",
+        "overrideStyleName": "Default",
+        "resolveAbstractClassNames": true,
+        "startupScreenHTML": "Startup screen HTML goes here.",
+        "startupScreenStyle": "",
+        "displayLoginComponent": false,
+        "login": {
+            "dialog": {
+                "usernameLabel": "User Name",
+                "passwordLabel": "Password",
+                "userNameLabelStyle": "text-align:left;",
+                "userNameFieldStyle": "",
+                "passwordLabelStyle": "text-align:left;",
+                "passwordFieldStyle": "",
+                "width": "100%",
+                "loginButtonLabel": "Login",
+                "loginButtonStyle": "",
+                "headerText": "",
+                "footerText": "",
+                "disableAutocompleteOnUsername": false,
+                "disableAutocompleteOnPassword": true,
+                "hasNewAccountLink": false,
+                "newAccountLinkText": "Register new account",
+                "newAccountLinkStyle": "",
+                "newAccountLinkURL": "",
+                "newAccountLinkType": "UXComponent",
+                "newAccountComponent": ""
+            }
+        },
+        "startupComponentExpression": "<arr<[1]<expression=\"1=1\">\n<componentName=\"login_telecom\">\n<componentType=\"UX\">\n<style=\"\">\n<overridesettings=\"\">\n<alias=\"\">\n>\n>\n",
+        "suppressWarningIfNoStartupComponent": false,
+        "startupComponentAlias": "<Default>",
+        "startupComponentUsesFullPageReload": false,
+        "passBrowserFlagsOnURL": false,
+        "startupScreen": {
+            "hasFreeformLayout": false,
+            "freeformLayout": ""
+        },
+        "serverSideEvents": {
+            "onInitialRender": "function onInitialRender as p (e as p)\n\ta5_ajax_appLauncher(e)\nend function \n",
+            "onComponentInitialize": "",
+            "onComponentExecute": ""
+        },
+        "FontSize": "Medium",
+        "clientSideEvents": {
+            "_onRenderComplete": "//{dialog.object}._functions._login();"
+        },
+        "activeLanguage": "<Default>",
+        "fontScalingOption": "All",
+        "mustRunInIFrame": false,
+        "IframeInlineStyle": "width: 8in; height: 6in; border: none;",
+        "masterTemplate": "",
+        "saveFileType": "Formatted JSON",
+        "info": {
+            "dateLastEdited": "2017-7-6"
+        },
+        "pageTitle": "Component",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "builder": {
+            "workingPreviewEnabled": true,
+            "previewEnabled": true
+        },
+        "selected": "",
+        "designPaneIndex": 1,
+        "masterPaneC": "TabbedUIProps",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "__WPhostName": "Internet Explorer",
+        "embeddedMode": false,
+        "_style_versionNumber": 3,
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hassubthemeTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "repeatingSectionsAreDirty": true,
+        "toolBox_value": "",
+        "addinBuildNumber": "4889",
+        "addinBuildNumberHighestUsed": "4889",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builderVersionNumber": 1,
+        "builtWithVersionNumer": 1,
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "componentType": "CustomComponent",
+        "version": 1,
+        "A5SaveTimeStamp": "20170706095659291"
+    }
+}

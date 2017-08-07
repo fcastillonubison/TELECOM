@@ -1,0 +1,47 @@
+{
+	"items": [
+		{
+			"componentName": "persistent",
+			"settingsJSON": "{\n\t\"id\": \"entel\",\n\t\"name\": \"TELECOMAPP\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "79dcaa6444d0448d9bd7c470ace25c09"
+		},
+		{
+			"componentName": "base",
+			"settingsJSON": "{\n\t\"id\": \"entelbase\",\n\t\"name\": \"entelbase\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "60b2a4da021947cc91156298735cc1de"
+		},
+		{
+			"componentName": "login_telecom",
+			"settingsJSON": "{\n\t\"id\": \"entellogin\",\n\t\"name\": \"entellogin\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "d864793325a44efaae418cbe8db785fa"
+		},
+		{
+			"componentName": "main_telecom",
+			"settingsJSON": "{\n\t\"id\": \"entelmain\",\n\t\"name\": \"entelmain\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "fffa9b47993040dfbf6f4098e1d5a9dd"
+		},
+		{
+			"componentName": "nuevousuario_telecom",
+			"settingsJSON": "{\n\t\"id\": \"entelnew\",\n\t\"name\": \"entelnew\",\n\t\"url\": \"\",\n\t\"version\": \"1.0.0\",\n\t\"installMessage\": \"\",\n\t\"minSize\": \"\",\n\t\"maxSize\": \"\",\n\t\"description\": \"\",\n\t\"other\": {\n\t\t\"developerName\": \"\",\n\t\t\"deveroperEmail\": \"\"\n\t},\n\t\"BackgroundColor\": \"#5345f2\",\n\t\"icontype\": \"Bitmap\",\n\t\"iconbitmap\": \"\",\n\t\"iconstyle\": \"\",\n\t\"svg\": \"\",\n\t\"advancedMode\": false,\n\t\"advancedModeJson\": \"\",\n\t\"options\": {\n\t\t\"iOSStatusBar\": {\n\t\t\t\"statusBarOverlaysWebView\": 1,\n\t\t\t\"statusBarTextWhite\": 0,\n\t\t\t\"statusBarBackgroundHexColor\": \"#FFF\"\n\t\t}\n\t},\n\t\"downloadtype\": \"manifest\",\n\t\"downloadLocation\": \"\"\n}",
+			"settingsDefined": true,
+			"guid": "1260dd8bc60142bd88502c6d64dadb9a"
+		}	
+],
+	"testServer": {
+		"version": "1.0",
+		"description": "Available App Info",
+		"hostName": "Telecomapp",
+		"message": "Sample message",
+		"messageVersion": 1
+	},
+	"publishing": {
+		"lastProfile": "Local Webroot",
+		"lastURL": "",
+		"serverName": "TelecomAppLocal",
+		"serverDescription": "server"
+	}
+}
